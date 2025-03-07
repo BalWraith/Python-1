@@ -1,0 +1,1962 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "M",
+        "importPath": "re",
+        "description": "re",
+        "isExtraImport": true,
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "random,os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random.os",
+        "description": "random.os",
+        "detail": "random.os",
+        "documentation": {}
+    },
+    {
+        "label": "os,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.",
+        "description": "os.",
+        "detail": "os.",
+        "documentation": {}
+    },
+    {
+        "label": "random,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random.",
+        "description": "random.",
+        "detail": "random.",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "random,os,time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random.os.time",
+        "description": "random.os.time",
+        "detail": "random.os.time",
+        "documentation": {}
+    },
+    {
+        "label": "valid_ident",
+        "importPath": "logging.config",
+        "description": "logging.config",
+        "isExtraImport": true,
+        "detail": "logging.config",
+        "documentation": {}
+    },
+    {
+        "label": "timeit",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "timeit",
+        "description": "timeit",
+        "detail": "timeit",
+        "documentation": {}
+    },
+    {
+        "label": "lst",
+        "kind": 5,
+        "importPath": "A_top.py.break",
+        "description": "A_top.py.break",
+        "peekOfCode": "lst = [\"books\", \"pencils\", \"cyrons\", \"pens\", \"erasers\"]\nfor i in lst:\n    # print(i)\n    if i == \"pens\":\n        print(True)\n        break # to exit out of loop\nstring = \"\"\nwhile True:\n    user_input = input(\"Enter characters: \")\n    if user_input == \"quit\":",
+        "detail": "A_top.py.break",
+        "documentation": {}
+    },
+    {
+        "label": "string",
+        "kind": 5,
+        "importPath": "A_top.py.break",
+        "description": "A_top.py.break",
+        "peekOfCode": "string = \"\"\nwhile True:\n    user_input = input(\"Enter characters: \")\n    if user_input == \"quit\":\n        print(string)\n        break\n    string = string + user_input\nprint(\"\\n\"*8)",
+        "detail": "A_top.py.break",
+        "documentation": {}
+    },
+    {
+        "label": "counter",
+        "kind": 5,
+        "importPath": "A_top.py.continue",
+        "description": "A_top.py.continue",
+        "peekOfCode": "counter = 1\nwhile counter <= 10:\n    if counter % 2 == 0:\n        counter += 1\n        continue\n    print(counter)\n    counter += 1",
+        "detail": "A_top.py.continue",
+        "documentation": {}
+    },
+    {
+        "label": "fruit",
+        "kind": 5,
+        "importPath": "A_top.py.dictionary",
+        "description": "A_top.py.dictionary",
+        "peekOfCode": "fruit = {\"apple\":1, \"banana\": 2, \"cherry\": 3}\nprint(fruit)\n#add\nfruit[\"grape\"] = 5\nprint(fruit)\n#access\nprint(fruit[\"apple\"])\n#delete\ndel fruit[\"banana\"]\nprint(fruit)",
+        "detail": "A_top.py.dictionary",
+        "documentation": {}
+    },
+    {
+        "label": "fruit[\"grape\"]",
+        "kind": 5,
+        "importPath": "A_top.py.dictionary",
+        "description": "A_top.py.dictionary",
+        "peekOfCode": "fruit[\"grape\"] = 5\nprint(fruit)\n#access\nprint(fruit[\"apple\"])\n#delete\ndel fruit[\"banana\"]\nprint(fruit)\nfruit[\"apple\"] = 4\nfruit[\"kiwi\"] = 3\nprint(fruit)",
+        "detail": "A_top.py.dictionary",
+        "documentation": {}
+    },
+    {
+        "label": "fruit[\"apple\"]",
+        "kind": 5,
+        "importPath": "A_top.py.dictionary",
+        "description": "A_top.py.dictionary",
+        "peekOfCode": "fruit[\"apple\"] = 4\nfruit[\"kiwi\"] = 3\nprint(fruit)\nprint(\"grape\" + \"cherry\")\nprint(\"\\n\"*3)",
+        "detail": "A_top.py.dictionary",
+        "documentation": {}
+    },
+    {
+        "label": "fruit[\"kiwi\"]",
+        "kind": 5,
+        "importPath": "A_top.py.dictionary",
+        "description": "A_top.py.dictionary",
+        "peekOfCode": "fruit[\"kiwi\"] = 3\nprint(fruit)\nprint(\"grape\" + \"cherry\")\nprint(\"\\n\"*3)",
+        "detail": "A_top.py.dictionary",
+        "documentation": {}
+    },
+    {
+        "label": "mySet",
+        "kind": 5,
+        "importPath": "A_top.py.sets",
+        "description": "A_top.py.sets",
+        "peekOfCode": "mySet = {1, 2, 3, 4, 5, 5, 5, 5, \"apple\", 11.45, False}\n# print(mySet)\nmySet2 = set()\nmySet2.add(\"banana\")\nmySet2.add(\"mango\")\nmySet2.add(\"kiwi\")\nmySet2.add(\"apple\")\n# print(mySet2)\nmySet2.remove(\"kiwi\")\n# print(mySet2)",
+        "detail": "A_top.py.sets",
+        "documentation": {}
+    },
+    {
+        "label": "mySet2",
+        "kind": 5,
+        "importPath": "A_top.py.sets",
+        "description": "A_top.py.sets",
+        "peekOfCode": "mySet2 = set()\nmySet2.add(\"banana\")\nmySet2.add(\"mango\")\nmySet2.add(\"kiwi\")\nmySet2.add(\"apple\")\n# print(mySet2)\nmySet2.remove(\"kiwi\")\n# print(mySet2)\nset1 = {1,2,3,4,}\nset2 = {3,4,5,6,7}",
+        "detail": "A_top.py.sets",
+        "documentation": {}
+    },
+    {
+        "label": "set1",
+        "kind": 5,
+        "importPath": "A_top.py.sets",
+        "description": "A_top.py.sets",
+        "peekOfCode": "set1 = {1,2,3,4,}\nset2 = {3,4,5,6,7}\n#union (|) pipe\nprint(set1 | set2)\n#intersection (&)\nprint(set1 & set2)\n#difference\n#takes both lists and only prints the differences\nprint(set1 - set2)\nprint(set2 - set1)",
+        "detail": "A_top.py.sets",
+        "documentation": {}
+    },
+    {
+        "label": "set2",
+        "kind": 5,
+        "importPath": "A_top.py.sets",
+        "description": "A_top.py.sets",
+        "peekOfCode": "set2 = {3,4,5,6,7}\n#union (|) pipe\nprint(set1 | set2)\n#intersection (&)\nprint(set1 & set2)\n#difference\n#takes both lists and only prints the differences\nprint(set1 - set2)\nprint(set2 - set1)\nprint(\"\\n\"*4)",
+        "detail": "A_top.py.sets",
+        "documentation": {}
+    },
+    {
+        "label": "splitstring",
+        "kind": 5,
+        "importPath": "Girly_Voice.escape_char",
+        "description": "Girly_Voice.escape_char",
+        "peekOfCode": "splitstring = \"This string has been\\nsplit over\\nseveral\\nlines\"\nprint(splitstring)\ntabbed_string = '1\\t2\\t3\\t4\\t5'\nprint(tabbed_string)\nprint('The pet shop owner said \"No, no, \\'e\\'s uh,...he\\'s resting\".')\nprint(\"The pet shop owner said \\\"No, no, 'e's uh,...he's resting\\\".\")\nprint('''The pet shop owner said \"No, no, \\\n'e's uh,...he's resting\".''')\n# os.system(\"cls\")\nanothersplitstring = \"\"\"This string has been  \\",
+        "detail": "Girly_Voice.escape_char",
+        "documentation": {}
+    },
+    {
+        "label": "tabbed_string",
+        "kind": 5,
+        "importPath": "Girly_Voice.escape_char",
+        "description": "Girly_Voice.escape_char",
+        "peekOfCode": "tabbed_string = '1\\t2\\t3\\t4\\t5'\nprint(tabbed_string)\nprint('The pet shop owner said \"No, no, \\'e\\'s uh,...he\\'s resting\".')\nprint(\"The pet shop owner said \\\"No, no, 'e's uh,...he's resting\\\".\")\nprint('''The pet shop owner said \"No, no, \\\n'e's uh,...he's resting\".''')\n# os.system(\"cls\")\nanothersplitstring = \"\"\"This string has been  \\\nsplit over \\\nseveral \\",
+        "detail": "Girly_Voice.escape_char",
+        "documentation": {}
+    },
+    {
+        "label": "anothersplitstring",
+        "kind": 5,
+        "importPath": "Girly_Voice.escape_char",
+        "description": "Girly_Voice.escape_char",
+        "peekOfCode": "anothersplitstring = \"\"\"This string has been  \\\nsplit over \\\nseveral \\\nlines\"\"\"\nprint(anothersplitstring)\nos.system(\"cls\")\nprint(\"C:\\\\Users\\\\timbuchalka\\\\notes.txt\")\nprint(r\"C:\\Users\\timbuchalka\\notes.txt\") # r = raw string\nprint()\nprint()",
+        "detail": "Girly_Voice.escape_char",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "Girly_Voice.operators",
+        "description": "Girly_Voice.operators",
+        "peekOfCode": "a = 12\nb = 3\nprint(a + b)  # 15\nprint(a - b)  # 9\nprint(a * b)  # 36\nprint(a / b)  # 4.0\nprint(a // b) # 4 integer division, rounded down towards minus infinity\nprint(a % b)  # 0 modulo: the remainder after integer division\nos.system(\"cls\")\nprint()",
+        "detail": "Girly_Voice.operators",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "Girly_Voice.operators",
+        "description": "Girly_Voice.operators",
+        "peekOfCode": "b = 3\nprint(a + b)  # 15\nprint(a - b)  # 9\nprint(a * b)  # 36\nprint(a / b)  # 4.0\nprint(a // b) # 4 integer division, rounded down towards minus infinity\nprint(a % b)  # 0 modulo: the remainder after integer division\nos.system(\"cls\")\nprint()\nos.system(\"cls\")",
+        "detail": "Girly_Voice.operators",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "Girly_Voice.operators",
+        "description": "Girly_Voice.operators",
+        "peekOfCode": "c = a + b\nd = c / 3\ne = d - 4\nprint(e * 12) # 12.0 \nos.system(\"cls\")\nprint(a / (b * a) / b)\nprint()\nprint()\nprint()",
+        "detail": "Girly_Voice.operators",
+        "documentation": {}
+    },
+    {
+        "label": "d",
+        "kind": 5,
+        "importPath": "Girly_Voice.operators",
+        "description": "Girly_Voice.operators",
+        "peekOfCode": "d = c / 3\ne = d - 4\nprint(e * 12) # 12.0 \nos.system(\"cls\")\nprint(a / (b * a) / b)\nprint()\nprint()\nprint()",
+        "detail": "Girly_Voice.operators",
+        "documentation": {}
+    },
+    {
+        "label": "e",
+        "kind": 5,
+        "importPath": "Girly_Voice.operators",
+        "description": "Girly_Voice.operators",
+        "peekOfCode": "e = d - 4\nprint(e * 12) # 12.0 \nos.system(\"cls\")\nprint(a / (b * a) / b)\nprint()\nprint()\nprint()",
+        "detail": "Girly_Voice.operators",
+        "documentation": {}
+    },
+    {
+        "label": "age",
+        "kind": 5,
+        "importPath": "Girly_Voice.repfields",
+        "description": "Girly_Voice.repfields",
+        "peekOfCode": "age = 24\nprint(\"My age is {0} years\".format(age))\nprint(\"There are {0} days in {2}, {2}, {3}, {4}, {5}, {6} and {7}\"\n      .format(31,\"Jan\",\"Mar\", \"May\", \"Jul\", \"Aug\", \"Oct\", \"Dec\"))\nprint(\"There are {0} days in Jan, Mar, May, Jul, Aug, Oct and Dec\".format(31))\nprint(\"Jan: {2}, Feb: {0}, Mar: {2}, Apr: {1}, May {2}, Jun: {1}, Jul: {2}, Sep: {1}, Otc: {2}, Nov: {1}, Dec: {2}\"\n      .format(28, 30 ,31))\nprint()\nprint(\"\"\"Jan: {2}\nFeb: {0}",
+        "detail": "Girly_Voice.repfields",
+        "documentation": {}
+    },
+    {
+        "label": "string1",
+        "kind": 5,
+        "importPath": "Girly_Voice.sequenceOperators",
+        "description": "Girly_Voice.sequenceOperators",
+        "peekOfCode": "string1 = \"he's \"\nstring2 = \"probably \"\nstring3 = \"pining \"\nstring4 = \"for the \"\nstring5 = \"fjords\"\nprint(string1 + string2 + string3 + string4 + string5)\nprint(\"he's \" \"probably \" \"pining \" \"for the \" \"fjords\")\nprint(\"Hello \" * 5)\nprint(\"Hello \" * (5 + 4))\nprint(\"Hello \" * 5 + \"4\")",
+        "detail": "Girly_Voice.sequenceOperators",
+        "documentation": {}
+    },
+    {
+        "label": "string2",
+        "kind": 5,
+        "importPath": "Girly_Voice.sequenceOperators",
+        "description": "Girly_Voice.sequenceOperators",
+        "peekOfCode": "string2 = \"probably \"\nstring3 = \"pining \"\nstring4 = \"for the \"\nstring5 = \"fjords\"\nprint(string1 + string2 + string3 + string4 + string5)\nprint(\"he's \" \"probably \" \"pining \" \"for the \" \"fjords\")\nprint(\"Hello \" * 5)\nprint(\"Hello \" * (5 + 4))\nprint(\"Hello \" * 5 + \"4\")\nos.system(\"cls\")",
+        "detail": "Girly_Voice.sequenceOperators",
+        "documentation": {}
+    },
+    {
+        "label": "string3",
+        "kind": 5,
+        "importPath": "Girly_Voice.sequenceOperators",
+        "description": "Girly_Voice.sequenceOperators",
+        "peekOfCode": "string3 = \"pining \"\nstring4 = \"for the \"\nstring5 = \"fjords\"\nprint(string1 + string2 + string3 + string4 + string5)\nprint(\"he's \" \"probably \" \"pining \" \"for the \" \"fjords\")\nprint(\"Hello \" * 5)\nprint(\"Hello \" * (5 + 4))\nprint(\"Hello \" * 5 + \"4\")\nos.system(\"cls\")\ntoday = \"friday\"",
+        "detail": "Girly_Voice.sequenceOperators",
+        "documentation": {}
+    },
+    {
+        "label": "string4",
+        "kind": 5,
+        "importPath": "Girly_Voice.sequenceOperators",
+        "description": "Girly_Voice.sequenceOperators",
+        "peekOfCode": "string4 = \"for the \"\nstring5 = \"fjords\"\nprint(string1 + string2 + string3 + string4 + string5)\nprint(\"he's \" \"probably \" \"pining \" \"for the \" \"fjords\")\nprint(\"Hello \" * 5)\nprint(\"Hello \" * (5 + 4))\nprint(\"Hello \" * 5 + \"4\")\nos.system(\"cls\")\ntoday = \"friday\"\nprint(\"day\" in today)",
+        "detail": "Girly_Voice.sequenceOperators",
+        "documentation": {}
+    },
+    {
+        "label": "string5",
+        "kind": 5,
+        "importPath": "Girly_Voice.sequenceOperators",
+        "description": "Girly_Voice.sequenceOperators",
+        "peekOfCode": "string5 = \"fjords\"\nprint(string1 + string2 + string3 + string4 + string5)\nprint(\"he's \" \"probably \" \"pining \" \"for the \" \"fjords\")\nprint(\"Hello \" * 5)\nprint(\"Hello \" * (5 + 4))\nprint(\"Hello \" * 5 + \"4\")\nos.system(\"cls\")\ntoday = \"friday\"\nprint(\"day\" in today)\nprint(\"fri\" in today)",
+        "detail": "Girly_Voice.sequenceOperators",
+        "documentation": {}
+    },
+    {
+        "label": "today",
+        "kind": 5,
+        "importPath": "Girly_Voice.sequenceOperators",
+        "description": "Girly_Voice.sequenceOperators",
+        "peekOfCode": "today = \"friday\"\nprint(\"day\" in today)\nprint(\"fri\" in today)\nprint(\"thur\" in today)\nprint(\"parrot\" in \"fjord\")",
+        "detail": "Girly_Voice.sequenceOperators",
+        "documentation": {}
+    },
+    {
+        "label": "letters",
+        "kind": 5,
+        "importPath": "Girly_Voice.sliceback",
+        "description": "Girly_Voice.sliceback",
+        "peekOfCode": "letters = \"abcdefghijklmnopqrstuvwxyz\"\nbackwards = letters[-10:-13:-1]\nprint(backwards)\nprint(letters[-4:])\nprint(letters[-22::-1])\nprint(letters[25:17:-1])\nos.system(\"cls\")",
+        "detail": "Girly_Voice.sliceback",
+        "documentation": {}
+    },
+    {
+        "label": "backwards",
+        "kind": 5,
+        "importPath": "Girly_Voice.sliceback",
+        "description": "Girly_Voice.sliceback",
+        "peekOfCode": "backwards = letters[-10:-13:-1]\nprint(backwards)\nprint(letters[-4:])\nprint(letters[-22::-1])\nprint(letters[25:17:-1])\nos.system(\"cls\")",
+        "detail": "Girly_Voice.sliceback",
+        "documentation": {}
+    },
+    {
+        "label": "greeting",
+        "kind": 5,
+        "importPath": "Girly_Voice.strings",
+        "description": "Girly_Voice.strings",
+        "peekOfCode": "greeting = \"Hello\"\nname = \"Michael\"\nprint(greeting + \" \" + name)\nprint(greeting + ' ' + name)\nage = 33\nprint(age)\nprint(type(greeting))\nprint(type(age))\nage_in_words = \"2 years\"\nprint(name + f\" is {age} years old\")",
+        "detail": "Girly_Voice.strings",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "Girly_Voice.strings",
+        "description": "Girly_Voice.strings",
+        "peekOfCode": "name = \"Michael\"\nprint(greeting + \" \" + name)\nprint(greeting + ' ' + name)\nage = 33\nprint(age)\nprint(type(greeting))\nprint(type(age))\nage_in_words = \"2 years\"\nprint(name + f\" is {age} years old\")\nprint(type(age))",
+        "detail": "Girly_Voice.strings",
+        "documentation": {}
+    },
+    {
+        "label": "age",
+        "kind": 5,
+        "importPath": "Girly_Voice.strings",
+        "description": "Girly_Voice.strings",
+        "peekOfCode": "age = 33\nprint(age)\nprint(type(greeting))\nprint(type(age))\nage_in_words = \"2 years\"\nprint(name + f\" is {age} years old\")\nprint(type(age))\nos.system(\"cls\")\nprint(f\"Pi is approximately {22 / 7:12.50f}\")\npi = 22 / 7",
+        "detail": "Girly_Voice.strings",
+        "documentation": {}
+    },
+    {
+        "label": "age_in_words",
+        "kind": 5,
+        "importPath": "Girly_Voice.strings",
+        "description": "Girly_Voice.strings",
+        "peekOfCode": "age_in_words = \"2 years\"\nprint(name + f\" is {age} years old\")\nprint(type(age))\nos.system(\"cls\")\nprint(f\"Pi is approximately {22 / 7:12.50f}\")\npi = 22 / 7\nprint(f\"Pi is approximately {pi:12.50f}\")",
+        "detail": "Girly_Voice.strings",
+        "documentation": {}
+    },
+    {
+        "label": "pi",
+        "kind": 5,
+        "importPath": "Girly_Voice.strings",
+        "description": "Girly_Voice.strings",
+        "peekOfCode": "pi = 22 / 7\nprint(f\"Pi is approximately {pi:12.50f}\")",
+        "detail": "Girly_Voice.strings",
+        "documentation": {}
+    },
+    {
+        "label": "pat",
+        "kind": 2,
+        "importPath": "Girly_Voice.strings2",
+        "description": "Girly_Voice.strings2",
+        "peekOfCode": "def pat():\n  parrot = \"Norwegian Blue\"\n  print(parrot)\n  print(parrot[3]) # w\n  print(parrot[4]) # e\n  print(parrot[9])\n  print(parrot[3]) # w\n  print(parrot[6]) # i\n  print(parrot[8]) # n\n  os.system(\"cls\")",
+        "detail": "Girly_Voice.strings2",
+        "documentation": {}
+    },
+    {
+        "label": "number",
+        "kind": 5,
+        "importPath": "Girly_Voice.strings2",
+        "description": "Girly_Voice.strings2",
+        "peekOfCode": "number = input(\"Please enter a series of numbers, using any separators you like: \")\nseparators = \"\"\nfor char in number:\n  if not char.isnumeric():\n    separators = separators + char\nprint(separators)\nvalues = \"\".join(char if char not in separators else \" \" for char in number).split()\nprint(sum([int(val) for val in values]))",
+        "detail": "Girly_Voice.strings2",
+        "documentation": {}
+    },
+    {
+        "label": "separators",
+        "kind": 5,
+        "importPath": "Girly_Voice.strings2",
+        "description": "Girly_Voice.strings2",
+        "peekOfCode": "separators = \"\"\nfor char in number:\n  if not char.isnumeric():\n    separators = separators + char\nprint(separators)\nvalues = \"\".join(char if char not in separators else \" \" for char in number).split()\nprint(sum([int(val) for val in values]))",
+        "detail": "Girly_Voice.strings2",
+        "documentation": {}
+    },
+    {
+        "label": "values",
+        "kind": 5,
+        "importPath": "Girly_Voice.strings2",
+        "description": "Girly_Voice.strings2",
+        "peekOfCode": "values = \"\".join(char if char not in separators else \" \" for char in number).split()\nprint(sum([int(val) for val in values]))",
+        "detail": "Girly_Voice.strings2",
+        "documentation": {}
+    },
+    {
+        "label": "available_exits",
+        "kind": 5,
+        "importPath": "ProgramFlow.adventure",
+        "description": "ProgramFlow.adventure",
+        "peekOfCode": "available_exits = [\"north\", \"south\", \"east\", \"west\"]\nchosen_exit = \"\"\nwhile chosen_exit not in available_exits:\n    chosen_exit = input(\"Please choose a direction: \")\n    if chosen_exit.casefold() == \"quit\":\n        print(\"Game over\")\n        break\nprint(\"aren't you glad you got out of there\")",
+        "detail": "ProgramFlow.adventure",
+        "documentation": {}
+    },
+    {
+        "label": "chosen_exit",
+        "kind": 5,
+        "importPath": "ProgramFlow.adventure",
+        "description": "ProgramFlow.adventure",
+        "peekOfCode": "chosen_exit = \"\"\nwhile chosen_exit not in available_exits:\n    chosen_exit = input(\"Please choose a direction: \")\n    if chosen_exit.casefold() == \"quit\":\n        print(\"Game over\")\n        break\nprint(\"aren't you glad you got out of there\")",
+        "detail": "ProgramFlow.adventure",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "ProgramFlow.blocks",
+        "description": "ProgramFlow.blocks",
+        "peekOfCode": "name = input(\"Please enter your name: \")\nage = int(input(\"How old are you, {0}? \".format(name)))\nprint(age)\n# if age >= 18:\n#     print(\"You are old enough to vote\")\n#     print(\"Please put an X in the box\")\n# else:\n#     print(\"Please come back in {0} years\".format(18 - age))\nif age < 18:\n    print(\"Please come back in {0} years\".format(18 - age))",
+        "detail": "ProgramFlow.blocks",
+        "documentation": {}
+    },
+    {
+        "label": "age",
+        "kind": 5,
+        "importPath": "ProgramFlow.blocks",
+        "description": "ProgramFlow.blocks",
+        "peekOfCode": "age = int(input(\"How old are you, {0}? \".format(name)))\nprint(age)\n# if age >= 18:\n#     print(\"You are old enough to vote\")\n#     print(\"Please put an X in the box\")\n# else:\n#     print(\"Please come back in {0} years\".format(18 - age))\nif age < 18:\n    print(\"Please come back in {0} years\".format(18 - age))\nelif age == 900:",
+        "detail": "ProgramFlow.blocks",
+        "documentation": {}
+    },
+    {
+        "label": "parrot",
+        "kind": 5,
+        "importPath": "ProgramFlow.checkingin",
+        "description": "ProgramFlow.checkingin",
+        "peekOfCode": "parrot = \"Norwegian Blue\"\nletter = input(\"Enter a character: \")\nif letter in parrot:\n    print(\"{} is in {}\".format(letter, parrot))\nelse:\n    print(\"I don't need that letter\")",
+        "detail": "ProgramFlow.checkingin",
+        "documentation": {}
+    },
+    {
+        "label": "letter",
+        "kind": 5,
+        "importPath": "ProgramFlow.checkingin",
+        "description": "ProgramFlow.checkingin",
+        "peekOfCode": "letter = input(\"Enter a character: \")\nif letter in parrot:\n    print(\"{} is in {}\".format(letter, parrot))\nelse:\n    print(\"I don't need that letter\")",
+        "detail": "ProgramFlow.checkingin",
+        "documentation": {}
+    },
+    {
+        "label": "age",
+        "kind": 5,
+        "importPath": "ProgramFlow.conditions",
+        "description": "ProgramFlow.conditions",
+        "peekOfCode": "age = int(input(\"How old are you? \"))\n# if age >= 16 and age <= 65:\n# if 16 <= age <= 65:\nif age in range(16, 66):\n    print(\"Have a good day at work\")\nelse:\n    print(\"Enjoy your free time\")\nprint(\"-\" * 80)\nif age < 16 or age > 65:\n    print(\"Enjoy your free time\")",
+        "detail": "ProgramFlow.conditions",
+        "documentation": {}
+    },
+    {
+        "label": "draw_axes",
+        "kind": 2,
+        "importPath": "ProgramFlow.exchange_chart",
+        "description": "ProgramFlow.exchange_chart",
+        "peekOfCode": "def draw_axes():\n    canvas.configure(scrollregion=(0, -y_origin, x_origin / 2, y_origin + label_height))\n    canvas.create_line(0, y_origin, x_origin, y_origin, width=2)\n    canvas.create_line(0, 0, 0, y_origin * 2, width=2)\ndef print_label(x, label):\n    canvas.create_text(x * bar_width * 2, y_origin, text=label, anchor='nw')\ndef draw_bar(x, y, bar_colour):\n    x_pos = x * bar_width * 2 + bar_width\n    y_height = y * bar_scaling\n    canvas.create_rectangle(x_pos - bar_width + bar_spacing, y_origin - 2, x_pos + bar_width, y_origin - y_height,",
+        "detail": "ProgramFlow.exchange_chart",
+        "documentation": {}
+    },
+    {
+        "label": "print_label",
+        "kind": 2,
+        "importPath": "ProgramFlow.exchange_chart",
+        "description": "ProgramFlow.exchange_chart",
+        "peekOfCode": "def print_label(x, label):\n    canvas.create_text(x * bar_width * 2, y_origin, text=label, anchor='nw')\ndef draw_bar(x, y, bar_colour):\n    x_pos = x * bar_width * 2 + bar_width\n    y_height = y * bar_scaling\n    canvas.create_rectangle(x_pos - bar_width + bar_spacing, y_origin - 2, x_pos + bar_width, y_origin - y_height,\n                            fill=bar_colour, outline=bar_colour)\ndef generate_year_month(now):\n    start_month = now.month - 11\n    start_year = now.year",
+        "detail": "ProgramFlow.exchange_chart",
+        "documentation": {}
+    },
+    {
+        "label": "draw_bar",
+        "kind": 2,
+        "importPath": "ProgramFlow.exchange_chart",
+        "description": "ProgramFlow.exchange_chart",
+        "peekOfCode": "def draw_bar(x, y, bar_colour):\n    x_pos = x * bar_width * 2 + bar_width\n    y_height = y * bar_scaling\n    canvas.create_rectangle(x_pos - bar_width + bar_spacing, y_origin - 2, x_pos + bar_width, y_origin - y_height,\n                            fill=bar_colour, outline=bar_colour)\ndef generate_year_month(now):\n    start_month = now.month - 11\n    start_year = now.year\n    if start_month < 1:\n        start_month += 12",
+        "detail": "ProgramFlow.exchange_chart",
+        "documentation": {}
+    },
+    {
+        "label": "generate_year_month",
+        "kind": 2,
+        "importPath": "ProgramFlow.exchange_chart",
+        "description": "ProgramFlow.exchange_chart",
+        "peekOfCode": "def generate_year_month(now):\n    start_month = now.month - 11\n    start_year = now.year\n    if start_month < 1:\n        start_month += 12\n        start_year -= 1\n    for count in range(12):\n        yield start_year, start_month\n        start_month += 1\n        if start_month > 12:",
+        "detail": "ProgramFlow.exchange_chart",
+        "documentation": {}
+    },
+    {
+        "label": "main_window",
+        "kind": 5,
+        "importPath": "ProgramFlow.exchange_chart",
+        "description": "ProgramFlow.exchange_chart",
+        "peekOfCode": "main_window = tkinter.Tk()\nmain_window.title(\"USD Exchange Rates\")\nmain_window.geometry('1024x768')\ncanvas = tkinter.Canvas(main_window, width=800, height=600)\ncanvas.grid(row=1, column=0)\ncanvas.update()\nx_origin, y_origin = canvas.winfo_width(), canvas.winfo_height() / 2\nbar_width, bar_spacing, bar_scaling, label_height = 11, 4, 150, 40\ndraw_axes()\nbar_x = 0",
+        "detail": "ProgramFlow.exchange_chart",
+        "documentation": {}
+    },
+    {
+        "label": "canvas",
+        "kind": 5,
+        "importPath": "ProgramFlow.exchange_chart",
+        "description": "ProgramFlow.exchange_chart",
+        "peekOfCode": "canvas = tkinter.Canvas(main_window, width=800, height=600)\ncanvas.grid(row=1, column=0)\ncanvas.update()\nx_origin, y_origin = canvas.winfo_width(), canvas.winfo_height() / 2\nbar_width, bar_spacing, bar_scaling, label_height = 11, 4, 150, 40\ndraw_axes()\nbar_x = 0\ncurrent_date = datetime.datetime.utcnow()\nchart_data = [('AUD', 'blue'), ('GBP', 'red'), ('EUR', 'green')]\nfor year, month in generate_year_month(current_date):",
+        "detail": "ProgramFlow.exchange_chart",
+        "documentation": {}
+    },
+    {
+        "label": "bar_x",
+        "kind": 5,
+        "importPath": "ProgramFlow.exchange_chart",
+        "description": "ProgramFlow.exchange_chart",
+        "peekOfCode": "bar_x = 0\ncurrent_date = datetime.datetime.utcnow()\nchart_data = [('AUD', 'blue'), ('GBP', 'red'), ('EUR', 'green')]\nfor year, month in generate_year_month(current_date):\n    url = 'http://www.learnprogramming.academy/exchangerates/{0}-{1:02d}'.format(year, month)\n    try:\n        con = urllib_request.urlopen(urllib_request.Request(url, headers={'User-Agent': \"Magic Browser\"}))\n    except (urllib_HTTP_error, urllib_URL_error) as err:\n        print(\"The exchange rates site is currently unavailable, please try again later. {}\".format(err))\n    else:",
+        "detail": "ProgramFlow.exchange_chart",
+        "documentation": {}
+    },
+    {
+        "label": "current_date",
+        "kind": 5,
+        "importPath": "ProgramFlow.exchange_chart",
+        "description": "ProgramFlow.exchange_chart",
+        "peekOfCode": "current_date = datetime.datetime.utcnow()\nchart_data = [('AUD', 'blue'), ('GBP', 'red'), ('EUR', 'green')]\nfor year, month in generate_year_month(current_date):\n    url = 'http://www.learnprogramming.academy/exchangerates/{0}-{1:02d}'.format(year, month)\n    try:\n        con = urllib_request.urlopen(urllib_request.Request(url, headers={'User-Agent': \"Magic Browser\"}))\n    except (urllib_HTTP_error, urllib_URL_error) as err:\n        print(\"The exchange rates site is currently unavailable, please try again later. {}\".format(err))\n    else:\n        data_values = con.read()",
+        "detail": "ProgramFlow.exchange_chart",
+        "documentation": {}
+    },
+    {
+        "label": "chart_data",
+        "kind": 5,
+        "importPath": "ProgramFlow.exchange_chart",
+        "description": "ProgramFlow.exchange_chart",
+        "peekOfCode": "chart_data = [('AUD', 'blue'), ('GBP', 'red'), ('EUR', 'green')]\nfor year, month in generate_year_month(current_date):\n    url = 'http://www.learnprogramming.academy/exchangerates/{0}-{1:02d}'.format(year, month)\n    try:\n        con = urllib_request.urlopen(urllib_request.Request(url, headers={'User-Agent': \"Magic Browser\"}))\n    except (urllib_HTTP_error, urllib_URL_error) as err:\n        print(\"The exchange rates site is currently unavailable, please try again later. {}\".format(err))\n    else:\n        data_values = con.read()\n        dict1 = json.loads(data_values.decode('utf-8'))",
+        "detail": "ProgramFlow.exchange_chart",
+        "documentation": {}
+    },
+    {
+        "label": "row_y_position",
+        "kind": 5,
+        "importPath": "ProgramFlow.exchange_chart",
+        "description": "ProgramFlow.exchange_chart",
+        "peekOfCode": "row_y_position = 0\nfor currency, colour in chart_data:\n    canvas.create_text(x_origin / 2, row_y_position, text=currency, anchor='nw', fill=colour)\n    row_y_position += 20\necb_terms_of_use = tkinter.Label(main_window, text=\"From June 2018, data is averaged over the month\"\n                                                   \" from the ECB daily feed (rebased to USD)\")\necb_terms_of_use.grid(row=2, column=0)\nmain_window.mainloop()",
+        "detail": "ProgramFlow.exchange_chart",
+        "documentation": {}
+    },
+    {
+        "label": "ecb_terms_of_use",
+        "kind": 5,
+        "importPath": "ProgramFlow.exchange_chart",
+        "description": "ProgramFlow.exchange_chart",
+        "peekOfCode": "ecb_terms_of_use = tkinter.Label(main_window, text=\"From June 2018, data is averaged over the month\"\n                                                   \" from the ECB daily feed (rebased to USD)\")\necb_terms_of_use.grid(row=2, column=0)\nmain_window.mainloop()",
+        "detail": "ProgramFlow.exchange_chart",
+        "documentation": {}
+    },
+    {
+        "label": "parrot",
+        "kind": 5,
+        "importPath": "ProgramFlow.forloops",
+        "description": "ProgramFlow.forloops",
+        "peekOfCode": "parrot = \"Norwegian Blue\"\nfor character in parrot:\n    print(character)",
+        "detail": "ProgramFlow.forloops",
+        "documentation": {}
+    },
+    {
+        "label": "highest",
+        "kind": 5,
+        "importPath": "ProgramFlow.guessinggame",
+        "description": "ProgramFlow.guessinggame",
+        "peekOfCode": "highest = 10\nanswer = random.randint(1, highest)\nprint(answer)   # TODO: Remove after testing\nprint(\"Please guess number between 1 and {}: \".format(highest))\nguess = int(input())\nif guess == answer:\n    print(\"You got it first time\")\nelse:\n    if guess < answer:\n        print(\"Please guess higher\")",
+        "detail": "ProgramFlow.guessinggame",
+        "documentation": {}
+    },
+    {
+        "label": "answer",
+        "kind": 5,
+        "importPath": "ProgramFlow.guessinggame",
+        "description": "ProgramFlow.guessinggame",
+        "peekOfCode": "answer = random.randint(1, highest)\nprint(answer)   # TODO: Remove after testing\nprint(\"Please guess number between 1 and {}: \".format(highest))\nguess = int(input())\nif guess == answer:\n    print(\"You got it first time\")\nelse:\n    if guess < answer:\n        print(\"Please guess higher\")\n    else:   # guess must be greater than answer",
+        "detail": "ProgramFlow.guessinggame",
+        "documentation": {}
+    },
+    {
+        "label": "guess",
+        "kind": 5,
+        "importPath": "ProgramFlow.guessinggame",
+        "description": "ProgramFlow.guessinggame",
+        "peekOfCode": "guess = int(input())\nif guess == answer:\n    print(\"You got it first time\")\nelse:\n    if guess < answer:\n        print(\"Please guess higher\")\n    else:   # guess must be greater than answer\n        print(\"Please guess lower\")\n    guess = int(input())\n    if guess == answer:",
+        "detail": "ProgramFlow.guessinggame",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "ProgramFlow.ifchallenge",
+        "description": "ProgramFlow.ifchallenge",
+        "peekOfCode": "name = input(\"Please enter your name: \")\nage = int(input(\"How old are you? \"))\nif 18 <= age < 31:\n    print(\"Welcome to club 18-30 holidays, {0}\".format(name))\nelse:\n    print(\"I'm sorry, our holidays are only for cool people\")",
+        "detail": "ProgramFlow.ifchallenge",
+        "documentation": {}
+    },
+    {
+        "label": "age",
+        "kind": 5,
+        "importPath": "ProgramFlow.ifchallenge",
+        "description": "ProgramFlow.ifchallenge",
+        "peekOfCode": "age = int(input(\"How old are you? \"))\nif 18 <= age < 31:\n    print(\"Welcome to club 18-30 holidays, {0}\".format(name))\nelse:\n    print(\"I'm sorry, our holidays are only for cool people\")",
+        "detail": "ProgramFlow.ifchallenge",
+        "documentation": {}
+    },
+    {
+        "label": "activity",
+        "kind": 5,
+        "importPath": "ProgramFlow.notin",
+        "description": "ProgramFlow.notin",
+        "peekOfCode": "activity = input(\"What would you like to do today? \")\nif \"cinema\" not in activity.casefold():\n    print(\"But I want to go to the cinema\")",
+        "detail": "ProgramFlow.notin",
+        "documentation": {}
+    },
+    {
+        "label": "shopping_list",
+        "kind": 5,
+        "importPath": "ProgramFlow.searching",
+        "description": "ProgramFlow.searching",
+        "peekOfCode": "shopping_list = [\"milk\", \"pasta\", \"eggs\", \"spam\", \"bread\", \"rice\"]\nitem_to_find = \"spam\"\nfound_at = None\n# for index in range(6):\n# for index in range(len(shopping_list)):\n#     if shopping_list[index] == item_to_find:\n#         found_at = index\n#         break\nif item_to_find in shopping_list:\n    found_at = shopping_list.index(item_to_find)",
+        "detail": "ProgramFlow.searching",
+        "documentation": {}
+    },
+    {
+        "label": "item_to_find",
+        "kind": 5,
+        "importPath": "ProgramFlow.searching",
+        "description": "ProgramFlow.searching",
+        "peekOfCode": "item_to_find = \"spam\"\nfound_at = None\n# for index in range(6):\n# for index in range(len(shopping_list)):\n#     if shopping_list[index] == item_to_find:\n#         found_at = index\n#         break\nif item_to_find in shopping_list:\n    found_at = shopping_list.index(item_to_find)\nif found_at is not None:",
+        "detail": "ProgramFlow.searching",
+        "documentation": {}
+    },
+    {
+        "label": "found_at",
+        "kind": 5,
+        "importPath": "ProgramFlow.searching",
+        "description": "ProgramFlow.searching",
+        "peekOfCode": "found_at = None\n# for index in range(6):\n# for index in range(len(shopping_list)):\n#     if shopping_list[index] == item_to_find:\n#         found_at = index\n#         break\nif item_to_find in shopping_list:\n    found_at = shopping_list.index(item_to_find)\nif found_at is not None:\n    print(\"Item found at position {}\".format(found_at))",
+        "detail": "ProgramFlow.searching",
+        "documentation": {}
+    },
+    {
+        "label": "shopping_list",
+        "kind": 5,
+        "importPath": "ProgramFlow.shopping",
+        "description": "ProgramFlow.shopping",
+        "peekOfCode": "shopping_list = [\"milk\", \"pasta\", \"eggs\", \"spam\", \"bread\", \"rice\"]\nfor item in shopping_list:\n    if item == \"spam\":\n        break\n    print(\"Buy \" + item)",
+        "detail": "ProgramFlow.shopping",
+        "documentation": {}
+    },
+    {
+        "label": "number",
+        "kind": 5,
+        "importPath": "ProgramFlow.strings2",
+        "description": "ProgramFlow.strings2",
+        "peekOfCode": "number = input(\"Please enter a series of numbers, using any separators you like: \")\nseparators = \"\"\nfor char in number:\n    if not char.isnumeric():\n        separators = separators + char\n# print(separators)\nvalues = \"\".join(char if char not in separators else \" \" for char in number).split()\nprint(sum([int(val) for val in values]))",
+        "detail": "ProgramFlow.strings2",
+        "documentation": {}
+    },
+    {
+        "label": "separators",
+        "kind": 5,
+        "importPath": "ProgramFlow.strings2",
+        "description": "ProgramFlow.strings2",
+        "peekOfCode": "separators = \"\"\nfor char in number:\n    if not char.isnumeric():\n        separators = separators + char\n# print(separators)\nvalues = \"\".join(char if char not in separators else \" \" for char in number).split()\nprint(sum([int(val) for val in values]))",
+        "detail": "ProgramFlow.strings2",
+        "documentation": {}
+    },
+    {
+        "label": "values",
+        "kind": 5,
+        "importPath": "ProgramFlow.strings2",
+        "description": "ProgramFlow.strings2",
+        "peekOfCode": "values = \"\".join(char if char not in separators else \" \" for char in number).split()\nprint(sum([int(val) for val in values]))",
+        "detail": "ProgramFlow.strings2",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "ProgramFlow.truefalse",
+        "description": "ProgramFlow.truefalse",
+        "peekOfCode": "name = input(\"Please enter your name: \")\n# if name:\nif name != \"\":\n    print(\"Hello, {}\".format(name))\nelse:\n    print(\"Are you the man with no name?\")",
+        "detail": "ProgramFlow.truefalse",
+        "documentation": {}
+    },
+    {
+        "label": "i",
+        "kind": 5,
+        "importPath": "ProgramFlow.whileloop",
+        "description": "ProgramFlow.whileloop",
+        "peekOfCode": "i = 0\nwhile True:\n    print(\"i is now {}\".format(i))\ni += 1",
+        "detail": "ProgramFlow.whileloop",
+        "documentation": {}
+    },
+    {
+        "label": "number",
+        "kind": 5,
+        "importPath": "ProgramFlow1.aa",
+        "description": "ProgramFlow1.aa",
+        "peekOfCode": "number = 5\nmultiplier = 8\nanswer = 0\n# add your loop after this comment",
+        "detail": "ProgramFlow1.aa",
+        "documentation": {}
+    },
+    {
+        "label": "multiplier",
+        "kind": 5,
+        "importPath": "ProgramFlow1.aa",
+        "description": "ProgramFlow1.aa",
+        "peekOfCode": "multiplier = 8\nanswer = 0\n# add your loop after this comment",
+        "detail": "ProgramFlow1.aa",
+        "documentation": {}
+    },
+    {
+        "label": "answer",
+        "kind": 5,
+        "importPath": "ProgramFlow1.aa",
+        "description": "ProgramFlow1.aa",
+        "peekOfCode": "answer = 0\n# add your loop after this comment",
+        "detail": "ProgramFlow1.aa",
+        "documentation": {}
+    },
+    {
+        "label": "available_exits",
+        "kind": 5,
+        "importPath": "ProgramFlow1.adventure",
+        "description": "ProgramFlow1.adventure",
+        "peekOfCode": "available_exits = [\"north\", \"south\", \"east\", \"west\"]\nchosen_exit = \"\"\nwhile chosen_exit not in available_exits:\n    chosen_exit = input(\"Please choose a direction: \")\n    if chosen_exit.casefold() == \"quit\":\n        print(\"Game over\")\n        break\nelse:\n    print(\"aren't you glad you got out of there\")\nprint(\"\\n\"*3)",
+        "detail": "ProgramFlow1.adventure",
+        "documentation": {}
+    },
+    {
+        "label": "chosen_exit",
+        "kind": 5,
+        "importPath": "ProgramFlow1.adventure",
+        "description": "ProgramFlow1.adventure",
+        "peekOfCode": "chosen_exit = \"\"\nwhile chosen_exit not in available_exits:\n    chosen_exit = input(\"Please choose a direction: \")\n    if chosen_exit.casefold() == \"quit\":\n        print(\"Game over\")\n        break\nelse:\n    print(\"aren't you glad you got out of there\")\nprint(\"\\n\"*3)",
+        "detail": "ProgramFlow1.adventure",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "ProgramFlow1.blocks",
+        "description": "ProgramFlow1.blocks",
+        "peekOfCode": "name = input(\"Please enter your name: \")\nage = int(input(\"How old are you, {}? \".format(name)))\nprint(age)\nif age >= 18:\n    print(\"You are old enough to vote\")\n    print(\"Please put an X in the box\")\n    print(\"*\" * 50)\nelse:\n    print(\"Please come back in {} years\".format(18 - age))\n    print(\"*\" * 50)",
+        "detail": "ProgramFlow1.blocks",
+        "documentation": {}
+    },
+    {
+        "label": "age",
+        "kind": 5,
+        "importPath": "ProgramFlow1.blocks",
+        "description": "ProgramFlow1.blocks",
+        "peekOfCode": "age = int(input(\"How old are you, {}? \".format(name)))\nprint(age)\nif age >= 18:\n    print(\"You are old enough to vote\")\n    print(\"Please put an X in the box\")\n    print(\"*\" * 50)\nelse:\n    print(\"Please come back in {} years\".format(18 - age))\n    print(\"*\" * 50)\nif age < 18:",
+        "detail": "ProgramFlow1.blocks",
+        "documentation": {}
+    },
+    {
+        "label": "parrot",
+        "kind": 5,
+        "importPath": "ProgramFlow1.checkingin",
+        "description": "ProgramFlow1.checkingin",
+        "peekOfCode": "parrot = \"Norwegian Blue\"\nletter = input(\"Enter a character: \")\n# letter = letter.title()\nif letter in parrot:\n    print(\"{} is in {}\".format(letter, parrot))\nelse:\n    print(\"I don't need that letter\")\nprint(\"\\n\"*2)",
+        "detail": "ProgramFlow1.checkingin",
+        "documentation": {}
+    },
+    {
+        "label": "letter",
+        "kind": 5,
+        "importPath": "ProgramFlow1.checkingin",
+        "description": "ProgramFlow1.checkingin",
+        "peekOfCode": "letter = input(\"Enter a character: \")\n# letter = letter.title()\nif letter in parrot:\n    print(\"{} is in {}\".format(letter, parrot))\nelse:\n    print(\"I don't need that letter\")\nprint(\"\\n\"*2)",
+        "detail": "ProgramFlow1.checkingin",
+        "documentation": {}
+    },
+    {
+        "label": "age",
+        "kind": 5,
+        "importPath": "ProgramFlow1.conditions",
+        "description": "ProgramFlow1.conditions",
+        "peekOfCode": "age = int(input(\"How old are you? \"))\n# if age >= 16 and age <= 65:\n# if 16 <= age <= 65:\nif age in range(16,66):\n    print(\"Have a good day at work\")\nelse:\n    print(\"Enjoy your free time\")\nprint(\"-\" * 80)\nif age < 16 or age > 65:\n    print(\"Enjoy your free time\")",
+        "detail": "ProgramFlow1.conditions",
+        "documentation": {}
+    },
+    {
+        "label": "numbers",
+        "kind": 5,
+        "importPath": "ProgramFlow1.contrive",
+        "description": "ProgramFlow1.contrive",
+        "peekOfCode": "numbers = [1, 45, 32, 12 , 60]\nfor number in numbers:\n    if number % 8 == 0:\n        print(\"The numbers are unacceptable\")\n        break\nelse:\n    print(\"All those numbers are fine\")\nprint(\"\\n\"*3)",
+        "detail": "ProgramFlow1.contrive",
+        "documentation": {}
+    },
+    {
+        "label": "parrot",
+        "kind": 5,
+        "importPath": "ProgramFlow1.forloops",
+        "description": "ProgramFlow1.forloops",
+        "peekOfCode": "parrot = \"Norwegian Blue\"\nfor character in parrot:\n    print(character)\nprint(\"\\n\"*2)",
+        "detail": "ProgramFlow1.forloops",
+        "documentation": {}
+    },
+    {
+        "label": "highest",
+        "kind": 5,
+        "importPath": "ProgramFlow1.guessinggame",
+        "description": "ProgramFlow1.guessinggame",
+        "peekOfCode": "highest = 1000\nanswer = random.randint(1,highest)#Return random integer in range [a, b], including both end points.\n# print(answer)   #TODO: Remove after\nguess = 0 # initialise to any number that doesn't equal the answer\nprint(\"Please guess a number between 1 and {}: \".format(highest))\nwhile guess != answer:\n guess = int(input())\n if guess == 0:\n    break\n if guess == answer:",
+        "detail": "ProgramFlow1.guessinggame",
+        "documentation": {}
+    },
+    {
+        "label": "answer",
+        "kind": 5,
+        "importPath": "ProgramFlow1.guessinggame",
+        "description": "ProgramFlow1.guessinggame",
+        "peekOfCode": "answer = random.randint(1,highest)#Return random integer in range [a, b], including both end points.\n# print(answer)   #TODO: Remove after\nguess = 0 # initialise to any number that doesn't equal the answer\nprint(\"Please guess a number between 1 and {}: \".format(highest))\nwhile guess != answer:\n guess = int(input())\n if guess == 0:\n    break\n if guess == answer:\n     print(\"Well done, you guessed it \")",
+        "detail": "ProgramFlow1.guessinggame",
+        "documentation": {}
+    },
+    {
+        "label": "guess",
+        "kind": 5,
+        "importPath": "ProgramFlow1.guessinggame",
+        "description": "ProgramFlow1.guessinggame",
+        "peekOfCode": "guess = 0 # initialise to any number that doesn't equal the answer\nprint(\"Please guess a number between 1 and {}: \".format(highest))\nwhile guess != answer:\n guess = int(input())\n if guess == 0:\n    break\n if guess == answer:\n     print(\"Well done, you guessed it \")\n     break\n else:",
+        "detail": "ProgramFlow1.guessinggame",
+        "documentation": {}
+    },
+    {
+        "label": "low",
+        "kind": 5,
+        "importPath": "ProgramFlow1.hilowgame",
+        "description": "ProgramFlow1.hilowgame",
+        "peekOfCode": "low = 1\nhigh = 1000\nprint(\"Please think of a number between {} and {}:\".format(low, high))\ninput(\"Press ENTER to start \")\nguesses = 1 \nwhile True:\n    print(\"\\tGuessing in the range of {} to {} \".format(low, high))\n    guess = low + (high - low) // 2\n    high_low = input(\"My guess is {}. Should I guess higher or lower? \"\n                     \"Enter h or l, or c if my guess was correct \"",
+        "detail": "ProgramFlow1.hilowgame",
+        "documentation": {}
+    },
+    {
+        "label": "high",
+        "kind": 5,
+        "importPath": "ProgramFlow1.hilowgame",
+        "description": "ProgramFlow1.hilowgame",
+        "peekOfCode": "high = 1000\nprint(\"Please think of a number between {} and {}:\".format(low, high))\ninput(\"Press ENTER to start \")\nguesses = 1 \nwhile True:\n    print(\"\\tGuessing in the range of {} to {} \".format(low, high))\n    guess = low + (high - low) // 2\n    high_low = input(\"My guess is {}. Should I guess higher or lower? \"\n                     \"Enter h or l, or c if my guess was correct \"\n                      .format(guess)).casefold()",
+        "detail": "ProgramFlow1.hilowgame",
+        "documentation": {}
+    },
+    {
+        "label": "guesses",
+        "kind": 5,
+        "importPath": "ProgramFlow1.hilowgame",
+        "description": "ProgramFlow1.hilowgame",
+        "peekOfCode": "guesses = 1 \nwhile True:\n    print(\"\\tGuessing in the range of {} to {} \".format(low, high))\n    guess = low + (high - low) // 2\n    high_low = input(\"My guess is {}. Should I guess higher or lower? \"\n                     \"Enter h or l, or c if my guess was correct \"\n                      .format(guess)).casefold()\n    if high_low == \"h\":\n        #Guess higher. The low end of the range becomes 1 greater than the guess.\n        low = guess + 1",
+        "detail": "ProgramFlow1.hilowgame",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "ProgramFlow1.ifchallenge",
+        "description": "ProgramFlow1.ifchallenge",
+        "peekOfCode": "name = input(\"What is your name? \")\nage = int(input(\"Hello {0}, how old are you? \".format(name)))\nif age >= 18 and age <= 30:\n    print(\"Welcome to the holiday\")\nelse:\n    print(\"I'm sorry {}, you can't come\".format(name))",
+        "detail": "ProgramFlow1.ifchallenge",
+        "documentation": {}
+    },
+    {
+        "label": "age",
+        "kind": 5,
+        "importPath": "ProgramFlow1.ifchallenge",
+        "description": "ProgramFlow1.ifchallenge",
+        "peekOfCode": "age = int(input(\"Hello {0}, how old are you? \".format(name)))\nif age >= 18 and age <= 30:\n    print(\"Welcome to the holiday\")\nelse:\n    print(\"I'm sorry {}, you can't come\".format(name))",
+        "detail": "ProgramFlow1.ifchallenge",
+        "documentation": {}
+    },
+    {
+        "label": "activity",
+        "kind": 5,
+        "importPath": "ProgramFlow1.notin",
+        "description": "ProgramFlow1.notin",
+        "peekOfCode": "activity = input(\"What would you like to do today? \")\n# .casefold() = Return a version of the string suitable for caseless comparisons\nif \"cinema\" not in activity.casefold():\n    print(\"But I want to go to the cinema.\")\nprint(\"\\n\"*2)",
+        "detail": "ProgramFlow1.notin",
+        "documentation": {}
+    },
+    {
+        "label": "shopping_list",
+        "kind": 5,
+        "importPath": "ProgramFlow1.searching",
+        "description": "ProgramFlow1.searching",
+        "peekOfCode": "shopping_list = [\"milk\", \"pasta\", \"eggs\", \"spam\", \"bread\", \"rice\"]\nitem_to_find = \"spam\"\nfound_at = None #stores the position of \"spam\" in the list\n# for index in range(6):\n# for index in range(len(shopping_list)):\n#     if shopping_list[index] == item_to_find:\n#         found_at = index\n#         break\nif item_to_find in shopping_list:\n    found_at = shopping_list.index(item_to_find)",
+        "detail": "ProgramFlow1.searching",
+        "documentation": {}
+    },
+    {
+        "label": "item_to_find",
+        "kind": 5,
+        "importPath": "ProgramFlow1.searching",
+        "description": "ProgramFlow1.searching",
+        "peekOfCode": "item_to_find = \"spam\"\nfound_at = None #stores the position of \"spam\" in the list\n# for index in range(6):\n# for index in range(len(shopping_list)):\n#     if shopping_list[index] == item_to_find:\n#         found_at = index\n#         break\nif item_to_find in shopping_list:\n    found_at = shopping_list.index(item_to_find)\nif found_at is not None:",
+        "detail": "ProgramFlow1.searching",
+        "documentation": {}
+    },
+    {
+        "label": "found_at",
+        "kind": 5,
+        "importPath": "ProgramFlow1.searching",
+        "description": "ProgramFlow1.searching",
+        "peekOfCode": "found_at = None #stores the position of \"spam\" in the list\n# for index in range(6):\n# for index in range(len(shopping_list)):\n#     if shopping_list[index] == item_to_find:\n#         found_at = index\n#         break\nif item_to_find in shopping_list:\n    found_at = shopping_list.index(item_to_find)\nif found_at is not None:\n    print(\"Item found at position {}\".format(found_at))",
+        "detail": "ProgramFlow1.searching",
+        "documentation": {}
+    },
+    {
+        "label": "shopping_list",
+        "kind": 5,
+        "importPath": "ProgramFlow1.shopping",
+        "description": "ProgramFlow1.shopping",
+        "peekOfCode": "shopping_list = [\"milk\", \"pasta\", \"eggs\", \"spam\", \"bread\", \"rice\"]\n# for item in shopping_list:\n#     if item != \"spam\":\n#       print(\"Buy \" + item )\nfor item in shopping_list:\n    if item == \"spam\":\n        break\n    print(\"Buy \" + item)\nprint(\"\\n\"*2)",
+        "detail": "ProgramFlow1.shopping",
+        "documentation": {}
+    },
+    {
+        "label": "choice",
+        "kind": 5,
+        "importPath": "ProgramFlow1.summarychallenge",
+        "description": "ProgramFlow1.summarychallenge",
+        "peekOfCode": "choice = \"-\"\nwhile choice != \"0\":  \n    if choice in \"12345\":\n        print(\"You chose {}\".format(choice))\n    else:\n        print(\"Please choose your options from the list below:\")\n        print(\"1:\\tLearn Python\")\n        print(\"2:\\tLearn Java\")\n        print(\"3:\\tGo swimming\")\n        print(\"4:\\tHave dinner\")",
+        "detail": "ProgramFlow1.summarychallenge",
+        "documentation": {}
+    },
+    {
+        "label": "sum",
+        "kind": 2,
+        "importPath": "ProgramFlow1.truefalse",
+        "description": "ProgramFlow1.truefalse",
+        "peekOfCode": "def sum():\n day = \"Friday\"\n temperature = 32\n raining = False\n # when you use () you don't need to worry if and has a higher value than or#\n if (day == \"Saturday\" and temperature > 27) or not raining:\n     print(\"Go swimming\")\n else:\n     print(\"Learn Python\")\n day = \"Studying\"",
+        "detail": "ProgramFlow1.truefalse",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "ProgramFlow1.truefalse",
+        "description": "ProgramFlow1.truefalse",
+        "peekOfCode": "name = input(\"Please enter your name: \")\n# if name:\nif name != \"\":\n   print(\"Hello, {}\".format(name))\nelse:\n   print(\"Are you the man with no name?\")\nprint(\"\\n\"*2)",
+        "detail": "ProgramFlow1.truefalse",
+        "documentation": {}
+    },
+    {
+        "label": "i",
+        "kind": 5,
+        "importPath": "ProgramFlow1.whileloop",
+        "description": "ProgramFlow1.whileloop",
+        "peekOfCode": "i = 0 # this is a place holder for the value i\nwhile i < 10: # this loop will keep going until i is greater than 10\n    print(\"i is now {}\".format(i))\n    i += 1",
+        "detail": "ProgramFlow1.whileloop",
+        "documentation": {}
+    },
+    {
+        "label": "rollDice",
+        "kind": 2,
+        "importPath": "Projects.py.Game-Balwraith",
+        "description": "Projects.py.Game-Balwraith",
+        "peekOfCode": "def rollDice(side):\n    result = random.randint(1,side)\n    return result\ndef health():\n    healthStat = ((rollDice(6)*rollDice(12))/2)\n    return healthStat\ndef strenght():\n    strengthStat = ((rollDice(6)*rollDice(8))/2)+12\n    return strengthStat\nprint(\"⚔️ BATTLE TIME ⚔️\")",
+        "detail": "Projects.py.Game-Balwraith",
+        "documentation": {}
+    },
+    {
+        "label": "health",
+        "kind": 2,
+        "importPath": "Projects.py.Game-Balwraith",
+        "description": "Projects.py.Game-Balwraith",
+        "peekOfCode": "def health():\n    healthStat = ((rollDice(6)*rollDice(12))/2)\n    return healthStat\ndef strenght():\n    strengthStat = ((rollDice(6)*rollDice(8))/2)+12\n    return strengthStat\nprint(\"⚔️ BATTLE TIME ⚔️\")\nprint()\nc1Name = input(\"Name your Legend:\\n\")\nc1Type = input(\"Character Type (Human, Elf, Wizard or Orc):\\n\")",
+        "detail": "Projects.py.Game-Balwraith",
+        "documentation": {}
+    },
+    {
+        "label": "strenght",
+        "kind": 2,
+        "importPath": "Projects.py.Game-Balwraith",
+        "description": "Projects.py.Game-Balwraith",
+        "peekOfCode": "def strenght():\n    strengthStat = ((rollDice(6)*rollDice(8))/2)+12\n    return strengthStat\nprint(\"⚔️ BATTLE TIME ⚔️\")\nprint()\nc1Name = input(\"Name your Legend:\\n\")\nc1Type = input(\"Character Type (Human, Elf, Wizard or Orc):\\n\")\nprint()\nprint(c1Name)\nc1Health = health()",
+        "detail": "Projects.py.Game-Balwraith",
+        "documentation": {}
+    },
+    {
+        "label": "c1Name",
+        "kind": 5,
+        "importPath": "Projects.py.Game-Balwraith",
+        "description": "Projects.py.Game-Balwraith",
+        "peekOfCode": "c1Name = input(\"Name your Legend:\\n\")\nc1Type = input(\"Character Type (Human, Elf, Wizard or Orc):\\n\")\nprint()\nprint(c1Name)\nc1Health = health()\nc1Strength = strenght()\nprint(\"HEALTH:\", c1Health )\nprint(\"STRENGTH:\",c1Strength )\nprint()\nprint(\"Who are they battling?\")",
+        "detail": "Projects.py.Game-Balwraith",
+        "documentation": {}
+    },
+    {
+        "label": "c1Type",
+        "kind": 5,
+        "importPath": "Projects.py.Game-Balwraith",
+        "description": "Projects.py.Game-Balwraith",
+        "peekOfCode": "c1Type = input(\"Character Type (Human, Elf, Wizard or Orc):\\n\")\nprint()\nprint(c1Name)\nc1Health = health()\nc1Strength = strenght()\nprint(\"HEALTH:\", c1Health )\nprint(\"STRENGTH:\",c1Strength )\nprint()\nprint(\"Who are they battling?\")\nprint()",
+        "detail": "Projects.py.Game-Balwraith",
+        "documentation": {}
+    },
+    {
+        "label": "c1Health",
+        "kind": 5,
+        "importPath": "Projects.py.Game-Balwraith",
+        "description": "Projects.py.Game-Balwraith",
+        "peekOfCode": "c1Health = health()\nc1Strength = strenght()\nprint(\"HEALTH:\", c1Health )\nprint(\"STRENGTH:\",c1Strength )\nprint()\nprint(\"Who are they battling?\")\nprint()\nc2Name = input(\"Name your Legend:\\n\")\nc2Type = input(\"Character Type (Human, Elf, Wizard or Orc):\\n\")\nprint()",
+        "detail": "Projects.py.Game-Balwraith",
+        "documentation": {}
+    },
+    {
+        "label": "c1Strength",
+        "kind": 5,
+        "importPath": "Projects.py.Game-Balwraith",
+        "description": "Projects.py.Game-Balwraith",
+        "peekOfCode": "c1Strength = strenght()\nprint(\"HEALTH:\", c1Health )\nprint(\"STRENGTH:\",c1Strength )\nprint()\nprint(\"Who are they battling?\")\nprint()\nc2Name = input(\"Name your Legend:\\n\")\nc2Type = input(\"Character Type (Human, Elf, Wizard or Orc):\\n\")\nprint()\nprint(c2Name)",
+        "detail": "Projects.py.Game-Balwraith",
+        "documentation": {}
+    },
+    {
+        "label": "c2Name",
+        "kind": 5,
+        "importPath": "Projects.py.Game-Balwraith",
+        "description": "Projects.py.Game-Balwraith",
+        "peekOfCode": "c2Name = input(\"Name your Legend:\\n\")\nc2Type = input(\"Character Type (Human, Elf, Wizard or Orc):\\n\")\nprint()\nprint(c2Name)\nc2Health = health()\nc2Strength = strenght()\nprint(\"HEALTH:\", c2Health )\nprint(\"STRENGTH:\",c2Strength )\nprint()\nround = 1",
+        "detail": "Projects.py.Game-Balwraith",
+        "documentation": {}
+    },
+    {
+        "label": "c2Type",
+        "kind": 5,
+        "importPath": "Projects.py.Game-Balwraith",
+        "description": "Projects.py.Game-Balwraith",
+        "peekOfCode": "c2Type = input(\"Character Type (Human, Elf, Wizard or Orc):\\n\")\nprint()\nprint(c2Name)\nc2Health = health()\nc2Strength = strenght()\nprint(\"HEALTH:\", c2Health )\nprint(\"STRENGTH:\",c2Strength )\nprint()\nround = 1\nwinner = None",
+        "detail": "Projects.py.Game-Balwraith",
+        "documentation": {}
+    },
+    {
+        "label": "c2Health",
+        "kind": 5,
+        "importPath": "Projects.py.Game-Balwraith",
+        "description": "Projects.py.Game-Balwraith",
+        "peekOfCode": "c2Health = health()\nc2Strength = strenght()\nprint(\"HEALTH:\", c2Health )\nprint(\"STRENGTH:\",c2Strength )\nprint()\nround = 1\nwinner = None\nwhile True:\n  time.sleep(1)\n  os.system(\"cls\")",
+        "detail": "Projects.py.Game-Balwraith",
+        "documentation": {}
+    },
+    {
+        "label": "c2Strength",
+        "kind": 5,
+        "importPath": "Projects.py.Game-Balwraith",
+        "description": "Projects.py.Game-Balwraith",
+        "peekOfCode": "c2Strength = strenght()\nprint(\"HEALTH:\", c2Health )\nprint(\"STRENGTH:\",c2Strength )\nprint()\nround = 1\nwinner = None\nwhile True:\n  time.sleep(1)\n  os.system(\"cls\")\n  print(\"⚔️ BATTLE TIME ⚔️\")",
+        "detail": "Projects.py.Game-Balwraith",
+        "documentation": {}
+    },
+    {
+        "label": "round",
+        "kind": 5,
+        "importPath": "Projects.py.Game-Balwraith",
+        "description": "Projects.py.Game-Balwraith",
+        "peekOfCode": "round = 1\nwinner = None\nwhile True:\n  time.sleep(1)\n  os.system(\"cls\")\n  print(\"⚔️ BATTLE TIME ⚔️\")\n  print()\n  print(\"The battle begins!\")  \n  c1Dice = rollDice(6)\n  c2Dice = rollDice(6)  ",
+        "detail": "Projects.py.Game-Balwraith",
+        "documentation": {}
+    },
+    {
+        "label": "winner",
+        "kind": 5,
+        "importPath": "Projects.py.Game-Balwraith",
+        "description": "Projects.py.Game-Balwraith",
+        "peekOfCode": "winner = None\nwhile True:\n  time.sleep(1)\n  os.system(\"cls\")\n  print(\"⚔️ BATTLE TIME ⚔️\")\n  print()\n  print(\"The battle begins!\")  \n  c1Dice = rollDice(6)\n  c2Dice = rollDice(6)  \n  difference = abs(c1Strength - c2Strength) + 1  ",
+        "detail": "Projects.py.Game-Balwraith",
+        "documentation": {}
+    },
+    {
+        "label": "rollDice",
+        "kind": 2,
+        "importPath": "Projects.py.Game",
+        "description": "Projects.py.Game",
+        "peekOfCode": "def rollDice(side):\n  result = random.randint(1,side)\n  return result\ndef health():\n  healthStat = ((rollDice(6)*rollDice(12))/2)+10\n  return healthStat\ndef strenght():\n  strengthStat = ((rollDice(6)*rollDice(8))/2)+12\n  return strengthStat\nwhile True:",
+        "detail": "Projects.py.Game",
+        "documentation": {}
+    },
+    {
+        "label": "health",
+        "kind": 2,
+        "importPath": "Projects.py.Game",
+        "description": "Projects.py.Game",
+        "peekOfCode": "def health():\n  healthStat = ((rollDice(6)*rollDice(12))/2)+10\n  return healthStat\ndef strenght():\n  strengthStat = ((rollDice(6)*rollDice(8))/2)+12\n  return strengthStat\nwhile True:\n  print(\"⚔️ CHARACTER BUILDER ⚔️\")\n  print()\n  name = input(\"Name your Legend:\\n\")",
+        "detail": "Projects.py.Game",
+        "documentation": {}
+    },
+    {
+        "label": "strenght",
+        "kind": 2,
+        "importPath": "Projects.py.Game",
+        "description": "Projects.py.Game",
+        "peekOfCode": "def strenght():\n  strengthStat = ((rollDice(6)*rollDice(8))/2)+12\n  return strengthStat\nwhile True:\n  print(\"⚔️ CHARACTER BUILDER ⚔️\")\n  print()\n  name = input(\"Name your Legend:\\n\")\n  type = input(\"Character Type (Human, Elf, Wizard or Orc):\\n\")\n  print()\n  print(name)",
+        "detail": "Projects.py.Game",
+        "documentation": {}
+    },
+    {
+        "label": "counter",
+        "kind": 5,
+        "importPath": "Projects.py.Login_System",
+        "description": "Projects.py.Login_System",
+        "peekOfCode": "counter = 0\nwhile counter < 3:\n   user_name = input(\"What is your username: \").lower()\n   password = input(\"What is your password: \").lower()\n   if user_name == \"michael\" and password == \"password\":\n      print(\"Welcom to Replit\")\n   elif user_name == \"david\" and password == \"trash\":\n      print(\"Welcom to Replit\")\n   elif user_name == \"james\" and password == \"bond\":\n      print(\"Welcom to Replit\")",
+        "detail": "Projects.py.Login_System",
+        "documentation": {}
+    },
+    {
+        "label": "correct_num",
+        "kind": 5,
+        "importPath": "Projects.py.One_Million-To-One",
+        "description": "Projects.py.One_Million-To-One",
+        "peekOfCode": "correct_num = random.randint(1,100000000)\nguess_count = 0\nwhile True:\n      print(correct_num)\n      guess = int(input(\"Guess a number?: \"))\n      if guess < 0:\n        print(\"I'm done I don't want to play this anymore\")\n        exit()\n      elif guess < correct_num:\n          print(\"Too low\")",
+        "detail": "Projects.py.One_Million-To-One",
+        "documentation": {}
+    },
+    {
+        "label": "guess_count",
+        "kind": 5,
+        "importPath": "Projects.py.One_Million-To-One",
+        "description": "Projects.py.One_Million-To-One",
+        "peekOfCode": "guess_count = 0\nwhile True:\n      print(correct_num)\n      guess = int(input(\"Guess a number?: \"))\n      if guess < 0:\n        print(\"I'm done I don't want to play this anymore\")\n        exit()\n      elif guess < correct_num:\n          print(\"Too low\")\n          guess_count += 1",
+        "detail": "Projects.py.One_Million-To-One",
+        "documentation": {}
+    },
+    {
+        "label": "high",
+        "kind": 5,
+        "importPath": "Projects.py.Pratice",
+        "description": "Projects.py.Pratice",
+        "peekOfCode": "high = 10\nlow = 0\ncount = low\nwhile count < high:\n    num = input(\"Pick a number between {} and {} \".format(low,high))\n    num = int(num)+ high % high\n    print(num)\nprint(\"\\n\"*2)",
+        "detail": "Projects.py.Pratice",
+        "documentation": {}
+    },
+    {
+        "label": "low",
+        "kind": 5,
+        "importPath": "Projects.py.Pratice",
+        "description": "Projects.py.Pratice",
+        "peekOfCode": "low = 0\ncount = low\nwhile count < high:\n    num = input(\"Pick a number between {} and {} \".format(low,high))\n    num = int(num)+ high % high\n    print(num)\nprint(\"\\n\"*2)",
+        "detail": "Projects.py.Pratice",
+        "documentation": {}
+    },
+    {
+        "label": "count",
+        "kind": 5,
+        "importPath": "Projects.py.Pratice",
+        "description": "Projects.py.Pratice",
+        "peekOfCode": "count = low\nwhile count < high:\n    num = input(\"Pick a number between {} and {} \".format(low,high))\n    num = int(num)+ high % high\n    print(num)\nprint(\"\\n\"*2)",
+        "detail": "Projects.py.Pratice",
+        "documentation": {}
+    },
+    {
+        "label": "wrong",
+        "kind": 5,
+        "importPath": "Projects.py.Spelling_game",
+        "description": "Projects.py.Spelling_game",
+        "peekOfCode": "wrong = ('''\n        ,-~***~-._.-~***~-.\n       /                   \\\n      / .--~~~--..--~~~--.  \\\n    ,' /._,/\\._,/\\._,/\\._,\\  `.\n   ~-. \\.-~      .-~      // ,-~\n      \\/  ,*    /     ,* // /    the  R O L L I N G   S T O N E S\n      / ,**'   /     ,*'// /\n     /,***'   /    ,**'// /\n    /,***'   /    ,**'// /",
+        "detail": "Projects.py.Spelling_game",
+        "documentation": {}
+    },
+    {
+        "label": "spelling_list",
+        "kind": 5,
+        "importPath": "Projects.py.Spelling_game",
+        "description": "Projects.py.Spelling_game",
+        "peekOfCode": "spelling_list = [\"yoga\",\"adult\",\"adopt\",\"delta\",\"alone\"]\nfor words in list(spelling_list):\n    word1 = input(\"Can you help me figure out what word this is?: agoy \")\n    if word1 == \"yoga\":\n        print(right)\n        break\n    else:\n        print(wrong)\n        continue  \nfor words in list(spelling_list):",
+        "detail": "Projects.py.Spelling_game",
+        "documentation": {}
+    },
+    {
+        "label": "correct_num",
+        "kind": 5,
+        "importPath": "Projects.py.while_true",
+        "description": "Projects.py.while_true",
+        "peekOfCode": "correct_num = random.randint(1,100000000)\nwhile True:\n    print(correct_num)\n    guess = int(input(\"Guess a number?: \"))\n    if guess < correct_num:\n        print(\"Too low\")\n    elif guess > correct_num:\n        print(\"Too high\")\n    elif guess == correct_num:\n        print(\"Correct!\")",
+        "detail": "Projects.py.while_true",
+        "documentation": {}
+    },
+    {
+        "label": "total",
+        "kind": 5,
+        "importPath": "Replit 100 Days of code.py.Day 19 Replit",
+        "description": "Replit 100 Days of code.py.Day 19 Replit",
+        "peekOfCode": "total = 0\nfor number in range(100):\n    total += number\n#     print(total)\nfor days in range(7):\n    print(\"Day\", days + 1)\nprint(\"Loan Calculator\")\nprint()\nloan = 1000\napr = 0.05",
+        "detail": "Replit 100 Days of code.py.Day 19 Replit",
+        "documentation": {}
+    },
+    {
+        "label": "loan",
+        "kind": 5,
+        "importPath": "Replit 100 Days of code.py.Day 19 Replit",
+        "description": "Replit 100 Days of code.py.Day 19 Replit",
+        "peekOfCode": "loan = 1000\napr = 0.05\nfor i in range(10):\n    loan +=(loan*apr)\n    print(\"Year\", i + 1, \"is\", round(loan,2))",
+        "detail": "Replit 100 Days of code.py.Day 19 Replit",
+        "documentation": {}
+    },
+    {
+        "label": "apr",
+        "kind": 5,
+        "importPath": "Replit 100 Days of code.py.Day 19 Replit",
+        "description": "Replit 100 Days of code.py.Day 19 Replit",
+        "peekOfCode": "apr = 0.05\nfor i in range(10):\n    loan +=(loan*apr)\n    print(\"Year\", i + 1, \"is\", round(loan,2))",
+        "detail": "Replit 100 Days of code.py.Day 19 Replit",
+        "documentation": {}
+    },
+    {
+        "label": "start",
+        "kind": 5,
+        "importPath": "Replit 100 Days of code.py.Day 20 Replit",
+        "description": "Replit 100 Days of code.py.Day 20 Replit",
+        "peekOfCode": "start = int(input(\"Start at: \"))\nend = int(input(\"End before: \"))\nincrement = int(input(\"Increment between values: \"))\nfor i in range(start, end, increment):\n    print(i)",
+        "detail": "Replit 100 Days of code.py.Day 20 Replit",
+        "documentation": {}
+    },
+    {
+        "label": "end",
+        "kind": 5,
+        "importPath": "Replit 100 Days of code.py.Day 20 Replit",
+        "description": "Replit 100 Days of code.py.Day 20 Replit",
+        "peekOfCode": "end = int(input(\"End before: \"))\nincrement = int(input(\"Increment between values: \"))\nfor i in range(start, end, increment):\n    print(i)",
+        "detail": "Replit 100 Days of code.py.Day 20 Replit",
+        "documentation": {}
+    },
+    {
+        "label": "increment",
+        "kind": 5,
+        "importPath": "Replit 100 Days of code.py.Day 20 Replit",
+        "description": "Replit 100 Days of code.py.Day 20 Replit",
+        "peekOfCode": "increment = int(input(\"Increment between values: \"))\nfor i in range(start, end, increment):\n    print(i)",
+        "detail": "Replit 100 Days of code.py.Day 20 Replit",
+        "documentation": {}
+    },
+    {
+        "label": "fact_family",
+        "kind": 5,
+        "importPath": "Replit 100 Days of code.py.Day 21 Replit",
+        "description": "Replit 100 Days of code.py.Day 21 Replit",
+        "peekOfCode": "fact_family = int(input(\"Pick a number that you want to learn how to multiply: \"))\ncounter = 0\nfor i in range(1,11):\n    correct_answer = i * fact_family\n    print(i, \"x\", fact_family)\n    answer = int(input(\">\"))\n    if answer == correct_answer:\n        print(\"You got it right!\")\n        counter += 1\n    else:",
+        "detail": "Replit 100 Days of code.py.Day 21 Replit",
+        "documentation": {}
+    },
+    {
+        "label": "counter",
+        "kind": 5,
+        "importPath": "Replit 100 Days of code.py.Day 21 Replit",
+        "description": "Replit 100 Days of code.py.Day 21 Replit",
+        "peekOfCode": "counter = 0\nfor i in range(1,11):\n    correct_answer = i * fact_family\n    print(i, \"x\", fact_family)\n    answer = int(input(\">\"))\n    if answer == correct_answer:\n        print(\"You got it right!\")\n        counter += 1\n    else:\n        print(\"That's not correct. It should have been\", correct_answer)",
+        "detail": "Replit 100 Days of code.py.Day 21 Replit",
+        "documentation": {}
+    },
+    {
+        "label": "rollDice",
+        "kind": 2,
+        "importPath": "Replit 100 Days of code.py.Day 22 Replit",
+        "description": "Replit 100 Days of code.py.Day 22 Replit",
+        "peekOfCode": "def rollDice():\n  import random\n  dice1 = random.randint(1,6)\n  dice2 = random.randint(1,6)\n  print(dice1,dice2)\n  if dice1 == 1 or dice2 == 1:\n    print(\"[.]\")\n  elif dice1 == 2 or dice2 == 2:\n    print(\"[:]\")\n  elif dice1 == 3 or dice2 == 3:",
+        "detail": "Replit 100 Days of code.py.Day 22 Replit",
+        "documentation": {}
+    },
+    {
+        "label": "rollDice",
+        "kind": 2,
+        "importPath": "Replit 100 Days of code.py.Day 23 Replit",
+        "description": "Replit 100 Days of code.py.Day 23 Replit",
+        "peekOfCode": "def rollDice():\n    import random\n    dice = random.randint(1,6)\n    if dice == 1:\n        print(\"[.]\")\n    elif dice == 2:\n        print(\"[:]\")\n    elif dice == 3:\n        print(\"[:.]\")\n    elif dice == 4:",
+        "detail": "Replit 100 Days of code.py.Day 23 Replit",
+        "documentation": {}
+    },
+    {
+        "label": "whichCake",
+        "kind": 2,
+        "importPath": "Replit 100 Days of code.py.Day 24 Replit",
+        "description": "Replit 100 Days of code.py.Day 24 Replit",
+        "peekOfCode": "def whichCake(ingredient,base,coating):\n    if ingredient == \"chocolate\":\n        print(\"\\033[37m Mmm, chocolate cake is amazing\")\n    elif ingredient == \"broccoli\":\n        print(\"You what mate?!\")\n    elif ingredient == \"strawberry\":\n        print(\"My wife loves strawberry cake\")\n    else:\n        print()\n        print(\"Yeah, that's great I suppose....\")",
+        "detail": "Replit 100 Days of code.py.Day 24 Replit",
+        "documentation": {}
+    },
+    {
+        "label": "biggerNumber",
+        "kind": 2,
+        "importPath": "Replit 100 Days of code.py.Day 24 Replit",
+        "description": "Replit 100 Days of code.py.Day 24 Replit",
+        "peekOfCode": "def biggerNumber(number1,number2):\n    if number1 > number2:\n        print(number1, \"is bigger\")\n    else:\n        print(number2, \"is bigger\")\n# biggerNumber(18,332)\nprint(\"Infinity Dice \\n\")\nimport random\ndef dice():\n    while True:",
+        "detail": "Replit 100 Days of code.py.Day 24 Replit",
+        "documentation": {}
+    },
+    {
+        "label": "dice",
+        "kind": 2,
+        "importPath": "Replit 100 Days of code.py.Day 24 Replit",
+        "description": "Replit 100 Days of code.py.Day 24 Replit",
+        "peekOfCode": "def dice():\n    while True:\n        # neg = int(-1000000000000000000)\n        roll = int(input(\"How many sides?: \"))\n        roll = random.randint(1,roll)\n        print(roll)\n        roll_again = input(\"Roll again? \")\n        if roll_again == \"yes\":\n         continue\n        else:",
+        "detail": "Replit 100 Days of code.py.Day 24 Replit",
+        "documentation": {}
+    },
+    {
+        "label": "pinPicker",
+        "kind": 2,
+        "importPath": "Replit 100 Days of code.py.Day 25 Replit",
+        "description": "Replit 100 Days of code.py.Day 25 Replit",
+        "peekOfCode": "def pinPicker(number):\n    import random\n    pin = \"\"\n    for i in range(number):\n        pin += str(random.randint(0,9))\n    return pin\n# myPin = pinPicker()\n# print(myPin)\n# AREA OF A TRIANGLE #\ndef areaOfTriangle(base, height):",
+        "detail": "Replit 100 Days of code.py.Day 25 Replit",
+        "documentation": {}
+    },
+    {
+        "label": "areaOfTriangle",
+        "kind": 2,
+        "importPath": "Replit 100 Days of code.py.Day 25 Replit",
+        "description": "Replit 100 Days of code.py.Day 25 Replit",
+        "peekOfCode": "def areaOfTriangle(base, height):\n    area = 0.5 * base * height\n    return area\ntotal = areaOfTriangle(5,22)\n# print(total)\n############################\nimport random\nprint()\nprint(\"\\033[37m CHARACTER STAT GENERATOR \\n\")\ndef cSg():",
+        "detail": "Replit 100 Days of code.py.Day 25 Replit",
+        "documentation": {}
+    },
+    {
+        "label": "cSg",
+        "kind": 2,
+        "importPath": "Replit 100 Days of code.py.Day 25 Replit",
+        "description": "Replit 100 Days of code.py.Day 25 Replit",
+        "peekOfCode": "def cSg():\n import time\n import os\n import random\nwhile True:\n    robust = random.randint(1,6)\n    strength = random.randint(1,8)\n    speed = random.randint(1,10)\n    intel = random.randint(1,12)\n    charm = random.randint(1,10)",
+        "detail": "Replit 100 Days of code.py.Day 25 Replit",
+        "documentation": {}
+    },
+    {
+        "label": "total",
+        "kind": 5,
+        "importPath": "Replit 100 Days of code.py.Day 25 Replit",
+        "description": "Replit 100 Days of code.py.Day 25 Replit",
+        "peekOfCode": "total = areaOfTriangle(5,22)\n# print(total)\n############################\nimport random\nprint()\nprint(\"\\033[37m CHARACTER STAT GENERATOR \\n\")\ndef cSg():\n import time\n import os\n import random",
+        "detail": "Replit 100 Days of code.py.Day 25 Replit",
+        "documentation": {}
+    },
+    {
+        "label": "fruits",
+        "kind": 5,
+        "importPath": "Replit 100 Days of code.py.Day 27 Replit",
+        "description": "Replit 100 Days of code.py.Day 27 Replit",
+        "peekOfCode": "fruits = [\"apples\", \"bananas\", \"strawberries\"]\nnew_fruits = []\nimport random\nfor fruit in fruits:\n    fruit = fruit.upper()\n    new_fruits.append(fruit)\nfruits = new_fruits\n# print(fruits)",
+        "detail": "Replit 100 Days of code.py.Day 27 Replit",
+        "documentation": {}
+    },
+    {
+        "label": "new_fruits",
+        "kind": 5,
+        "importPath": "Replit 100 Days of code.py.Day 27 Replit",
+        "description": "Replit 100 Days of code.py.Day 27 Replit",
+        "peekOfCode": "new_fruits = []\nimport random\nfor fruit in fruits:\n    fruit = fruit.upper()\n    new_fruits.append(fruit)\nfruits = new_fruits\n# print(fruits)",
+        "detail": "Replit 100 Days of code.py.Day 27 Replit",
+        "documentation": {}
+    },
+    {
+        "label": "fruits",
+        "kind": 5,
+        "importPath": "Replit 100 Days of code.py.Day 27 Replit",
+        "description": "Replit 100 Days of code.py.Day 27 Replit",
+        "peekOfCode": "fruits = new_fruits\n# print(fruits)",
+        "detail": "Replit 100 Days of code.py.Day 27 Replit",
+        "documentation": {}
+    },
+    {
+        "label": "rollDice",
+        "kind": 2,
+        "importPath": "Replit 100 Days of code.py.Day 28 Replit",
+        "description": "Replit 100 Days of code.py.Day 28 Replit",
+        "peekOfCode": "def rollDice(side):\n  result = random.randint(1,side)\n  return result\ndef health():\n  healthStat = ((rollDice(6)*rollDice(12))/2)+10\n  return healthStat\ndef strenght():\n  strengthStat = ((rollDice(6)*rollDice(8))/2)+12\n  return strengthStat\ndef c1hitstat():",
+        "detail": "Replit 100 Days of code.py.Day 28 Replit",
+        "documentation": {}
+    },
+    {
+        "label": "health",
+        "kind": 2,
+        "importPath": "Replit 100 Days of code.py.Day 28 Replit",
+        "description": "Replit 100 Days of code.py.Day 28 Replit",
+        "peekOfCode": "def health():\n  healthStat = ((rollDice(6)*rollDice(12))/2)+10\n  return healthStat\ndef strenght():\n  strengthStat = ((rollDice(6)*rollDice(8))/2)+12\n  return strengthStat\ndef c1hitstat():\n  c1Hit = c1Life-c2Life\n  return c1Hit\ndef c2hitstat():",
+        "detail": "Replit 100 Days of code.py.Day 28 Replit",
+        "documentation": {}
+    },
+    {
+        "label": "strenght",
+        "kind": 2,
+        "importPath": "Replit 100 Days of code.py.Day 28 Replit",
+        "description": "Replit 100 Days of code.py.Day 28 Replit",
+        "peekOfCode": "def strenght():\n  strengthStat = ((rollDice(6)*rollDice(8))/2)+12\n  return strengthStat\ndef c1hitstat():\n  c1Hit = c1Life-c2Life\n  return c1Hit\ndef c2hitstat():\n  c2Hit = c2Life-c1Life\n  return c2Hit\nc1Name = input(\"Name your Legend: \\n\")",
+        "detail": "Replit 100 Days of code.py.Day 28 Replit",
+        "documentation": {}
+    },
+    {
+        "label": "c1hitstat",
+        "kind": 2,
+        "importPath": "Replit 100 Days of code.py.Day 28 Replit",
+        "description": "Replit 100 Days of code.py.Day 28 Replit",
+        "peekOfCode": "def c1hitstat():\n  c1Hit = c1Life-c2Life\n  return c1Hit\ndef c2hitstat():\n  c2Hit = c2Life-c1Life\n  return c2Hit\nc1Name = input(\"Name your Legend: \\n\")\nc1Type = input(\"Character Type (Human, Elf, Wizard, Orc): \\n\")\nprint()\nprint(\"HEALTH: \", health())",
+        "detail": "Replit 100 Days of code.py.Day 28 Replit",
+        "documentation": {}
+    },
+    {
+        "label": "c2hitstat",
+        "kind": 2,
+        "importPath": "Replit 100 Days of code.py.Day 28 Replit",
+        "description": "Replit 100 Days of code.py.Day 28 Replit",
+        "peekOfCode": "def c2hitstat():\n  c2Hit = c2Life-c1Life\n  return c2Hit\nc1Name = input(\"Name your Legend: \\n\")\nc1Type = input(\"Character Type (Human, Elf, Wizard, Orc): \\n\")\nprint()\nprint(\"HEALTH: \", health())\nprint(\"STRENGTH: \", strenght())\nc1Life = health()+strenght()\nprint()",
+        "detail": "Replit 100 Days of code.py.Day 28 Replit",
+        "documentation": {}
+    },
+    {
+        "label": "c1Name",
+        "kind": 5,
+        "importPath": "Replit 100 Days of code.py.Day 28 Replit",
+        "description": "Replit 100 Days of code.py.Day 28 Replit",
+        "peekOfCode": "c1Name = input(\"Name your Legend: \\n\")\nc1Type = input(\"Character Type (Human, Elf, Wizard, Orc): \\n\")\nprint()\nprint(\"HEALTH: \", health())\nprint(\"STRENGTH: \", strenght())\nc1Life = health()+strenght()\nprint()\ntime.sleep(2)\nprint(\"Who are they battling?\")\nprint()",
+        "detail": "Replit 100 Days of code.py.Day 28 Replit",
+        "documentation": {}
+    },
+    {
+        "label": "c1Type",
+        "kind": 5,
+        "importPath": "Replit 100 Days of code.py.Day 28 Replit",
+        "description": "Replit 100 Days of code.py.Day 28 Replit",
+        "peekOfCode": "c1Type = input(\"Character Type (Human, Elf, Wizard, Orc): \\n\")\nprint()\nprint(\"HEALTH: \", health())\nprint(\"STRENGTH: \", strenght())\nc1Life = health()+strenght()\nprint()\ntime.sleep(2)\nprint(\"Who are they battling?\")\nprint()\nc2Name = input(\"Name your Legend: \\n\")",
+        "detail": "Replit 100 Days of code.py.Day 28 Replit",
+        "documentation": {}
+    },
+    {
+        "label": "c1Life",
+        "kind": 5,
+        "importPath": "Replit 100 Days of code.py.Day 28 Replit",
+        "description": "Replit 100 Days of code.py.Day 28 Replit",
+        "peekOfCode": "c1Life = health()+strenght()\nprint()\ntime.sleep(2)\nprint(\"Who are they battling?\")\nprint()\nc2Name = input(\"Name your Legend: \\n\")\nc2Type = input(\"Character Type (Human, Elf, Wizard, Orc): \\n\")\nprint()\nprint(\"HEALTH: \", health())\nprint(\"STRENGTH: \", strenght())",
+        "detail": "Replit 100 Days of code.py.Day 28 Replit",
+        "documentation": {}
+    },
+    {
+        "label": "c2Name",
+        "kind": 5,
+        "importPath": "Replit 100 Days of code.py.Day 28 Replit",
+        "description": "Replit 100 Days of code.py.Day 28 Replit",
+        "peekOfCode": "c2Name = input(\"Name your Legend: \\n\")\nc2Type = input(\"Character Type (Human, Elf, Wizard, Orc): \\n\")\nprint()\nprint(\"HEALTH: \", health())\nprint(\"STRENGTH: \", strenght())\nc2Life = health()+strenght()\nprint()\ntime.sleep(1)\nos.system(\"cls\")\nc1Fight = 100",
+        "detail": "Replit 100 Days of code.py.Day 28 Replit",
+        "documentation": {}
+    },
+    {
+        "label": "c2Type",
+        "kind": 5,
+        "importPath": "Replit 100 Days of code.py.Day 28 Replit",
+        "description": "Replit 100 Days of code.py.Day 28 Replit",
+        "peekOfCode": "c2Type = input(\"Character Type (Human, Elf, Wizard, Orc): \\n\")\nprint()\nprint(\"HEALTH: \", health())\nprint(\"STRENGTH: \", strenght())\nc2Life = health()+strenght()\nprint()\ntime.sleep(1)\nos.system(\"cls\")\nc1Fight = 100\nc2Fight = 100",
+        "detail": "Replit 100 Days of code.py.Day 28 Replit",
+        "documentation": {}
+    },
+    {
+        "label": "c2Life",
+        "kind": 5,
+        "importPath": "Replit 100 Days of code.py.Day 28 Replit",
+        "description": "Replit 100 Days of code.py.Day 28 Replit",
+        "peekOfCode": "c2Life = health()+strenght()\nprint()\ntime.sleep(1)\nos.system(\"cls\")\nc1Fight = 100\nc2Fight = 100\nwhile True:\n  print(\"⚔️BATTLE TIME⚔️\")\n  print()\n  if c1Life > c2Life:",
+        "detail": "Replit 100 Days of code.py.Day 28 Replit",
+        "documentation": {}
+    },
+    {
+        "label": "c1Fight",
+        "kind": 5,
+        "importPath": "Replit 100 Days of code.py.Day 28 Replit",
+        "description": "Replit 100 Days of code.py.Day 28 Replit",
+        "peekOfCode": "c1Fight = 100\nc2Fight = 100\nwhile True:\n  print(\"⚔️BATTLE TIME⚔️\")\n  print()\n  if c1Life > c2Life:\n    c2stat = c2hitstat()\n    print(c1Name, \"wins the first blow\")\n    print(c2Name, \"takes a hit, with\",c2stat, \"damage\")\n  elif c1Life < c2Life:",
+        "detail": "Replit 100 Days of code.py.Day 28 Replit",
+        "documentation": {}
+    },
+    {
+        "label": "c2Fight",
+        "kind": 5,
+        "importPath": "Replit 100 Days of code.py.Day 28 Replit",
+        "description": "Replit 100 Days of code.py.Day 28 Replit",
+        "peekOfCode": "c2Fight = 100\nwhile True:\n  print(\"⚔️BATTLE TIME⚔️\")\n  print()\n  if c1Life > c2Life:\n    c2stat = c2hitstat()\n    print(c1Name, \"wins the first blow\")\n    print(c2Name, \"takes a hit, with\",c2stat, \"damage\")\n  elif c1Life < c2Life:\n    print(c2Name, \"wins the first blow\")",
+        "detail": "Replit 100 Days of code.py.Day 28 Replit",
+        "documentation": {}
+    },
+    {
+        "label": "available_parts",
+        "kind": 5,
+        "importPath": "Sequences.buy_computer",
+        "description": "Sequences.buy_computer",
+        "peekOfCode": "available_parts = [\"computer\",\n                   \"monitor\",\n                   \"keyboard\",\n                   \"mouse\",\n                   \"hdmi cable\",\n                   \"dvd drive\"\n                   ]\n# valid_choices = [str(i) for i in range(1, len(available_parts) + 1)]\nvalid_choices = []\nfor i in range(1, len(available_parts) + 1):",
+        "detail": "Sequences.buy_computer",
+        "documentation": {}
+    },
+    {
+        "label": "valid_choices",
+        "kind": 5,
+        "importPath": "Sequences.buy_computer",
+        "description": "Sequences.buy_computer",
+        "peekOfCode": "valid_choices = []\nfor i in range(1, len(available_parts) + 1):\n    valid_choices.append(str(i))  \nprint(valid_choices)        \ncurrent_choice = \"-\"\ncomputer_parts = []\nwhile current_choice != \"0\":\n    if current_choice in valid_choices:\n        index = int(current_choice) - 1\n        chosen_part = available_parts[index]",
+        "detail": "Sequences.buy_computer",
+        "documentation": {}
+    },
+    {
+        "label": "current_choice",
+        "kind": 5,
+        "importPath": "Sequences.buy_computer",
+        "description": "Sequences.buy_computer",
+        "peekOfCode": "current_choice = \"-\"\ncomputer_parts = []\nwhile current_choice != \"0\":\n    if current_choice in valid_choices:\n        index = int(current_choice) - 1\n        chosen_part = available_parts[index]\n        if chosen_part in computer_parts:\n            # it's already in, so remoe it\n            print(\"Removing {}\".format(current_choice))\n            computer_parts.remove(chosen_part)",
+        "detail": "Sequences.buy_computer",
+        "documentation": {}
+    },
+    {
+        "label": "computer_parts",
+        "kind": 5,
+        "importPath": "Sequences.buy_computer",
+        "description": "Sequences.buy_computer",
+        "peekOfCode": "computer_parts = []\nwhile current_choice != \"0\":\n    if current_choice in valid_choices:\n        index = int(current_choice) - 1\n        chosen_part = available_parts[index]\n        if chosen_part in computer_parts:\n            # it's already in, so remoe it\n            print(\"Removing {}\".format(current_choice))\n            computer_parts.remove(chosen_part)\n        else:",
+        "detail": "Sequences.buy_computer",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "Sequences.gobackwards",
+        "description": "Sequences.gobackwards",
+        "peekOfCode": "data = [104, 101, 4, 105, 308, 103, 5, \n        107, 100, 306, 106, 102, 108]\nmin_vlaid = 100\nmax_vlaid = 200\n#                             #start,stop,step\n# for index in range(len(data) - 1, -1, -1):\n#     if data[index] < min_vlaid or data[index] > max_valid:\n#         print(index, data)\n#         del data[index]\ntop_index = len(data) - 1",
+        "detail": "Sequences.gobackwards",
+        "documentation": {}
+    },
+    {
+        "label": "min_vlaid",
+        "kind": 5,
+        "importPath": "Sequences.gobackwards",
+        "description": "Sequences.gobackwards",
+        "peekOfCode": "min_vlaid = 100\nmax_vlaid = 200\n#                             #start,stop,step\n# for index in range(len(data) - 1, -1, -1):\n#     if data[index] < min_vlaid or data[index] > max_valid:\n#         print(index, data)\n#         del data[index]\ntop_index = len(data) - 1\nfor index, value in enumerate(reversed(data)):\n    if value < min_vlaid or value > max_vlaid:",
+        "detail": "Sequences.gobackwards",
+        "documentation": {}
+    },
+    {
+        "label": "max_vlaid",
+        "kind": 5,
+        "importPath": "Sequences.gobackwards",
+        "description": "Sequences.gobackwards",
+        "peekOfCode": "max_vlaid = 200\n#                             #start,stop,step\n# for index in range(len(data) - 1, -1, -1):\n#     if data[index] < min_vlaid or data[index] > max_valid:\n#         print(index, data)\n#         del data[index]\ntop_index = len(data) - 1\nfor index, value in enumerate(reversed(data)):\n    if value < min_vlaid or value > max_vlaid:\n        print(top_index - index, value)",
+        "detail": "Sequences.gobackwards",
+        "documentation": {}
+    },
+    {
+        "label": "top_index",
+        "kind": 5,
+        "importPath": "Sequences.gobackwards",
+        "description": "Sequences.gobackwards",
+        "peekOfCode": "top_index = len(data) - 1\nfor index, value in enumerate(reversed(data)):\n    if value < min_vlaid or value > max_vlaid:\n        print(top_index - index, value)\n        del data[top_index - index]\nprint()\nprint(data)\nprint(\"\\n\"*1)",
+        "detail": "Sequences.gobackwards",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "Sequences.immutable",
+        "description": "Sequences.immutable",
+        "peekOfCode": "result = \"Correct\"\nanother_result = result\nprint(result)\nprint(another_result)\nresult += \"ish\"\nprint(id(result))\nprint()\nprint(another_result)",
+        "detail": "Sequences.immutable",
+        "documentation": {}
+    },
+    {
+        "label": "another_result",
+        "kind": 5,
+        "importPath": "Sequences.immutable",
+        "description": "Sequences.immutable",
+        "peekOfCode": "another_result = result\nprint(result)\nprint(another_result)\nresult += \"ish\"\nprint(id(result))\nprint()\nprint(another_result)",
+        "detail": "Sequences.immutable",
+        "documentation": {}
+    },
+    {
+        "label": "computer_parts",
+        "kind": 5,
+        "importPath": "Sequences.lists_intro",
+        "description": "Sequences.lists_intro",
+        "peekOfCode": "computer_parts = [\"computer\",\n                   \"monitor\",\n                    \"keyboard\",\n                    \"mouse\",\n                    \"mouse mat\"\n                    ]\nprint(computer_parts)\n#item in place 3 in the list computer_parts is replaced with trackball\n# computer_parts[3] = \"trackball\"\nprint(computer_parts[3:])",
+        "detail": "Sequences.lists_intro",
+        "documentation": {}
+    },
+    {
+        "label": "computer_parts[3:]",
+        "kind": 5,
+        "importPath": "Sequences.lists_intro",
+        "description": "Sequences.lists_intro",
+        "peekOfCode": "computer_parts[3:] = [\"tackball\"]#this get rid of item 3 on and replaces it with trackball\nprint(computer_parts)\nprint(\"\\n\"*3)",
+        "detail": "Sequences.lists_intro",
+        "documentation": {}
+    },
+    {
+        "label": "shopping_list",
+        "kind": 5,
+        "importPath": "Sequences.mutable",
+        "description": "Sequences.mutable",
+        "peekOfCode": "shopping_list = [\"milk\",\n                 \"pasta\",\n                 \"eggs\",\n                 \"bread\",\n                 \"rice\"\n                 ]\nanother_list = shopping_list\nprint(id(shopping_list))\nprint(id(another_list))\nshopping_list += [\"cookies\"]#adds cookies to the shopping_list",
+        "detail": "Sequences.mutable",
+        "documentation": {}
+    },
+    {
+        "label": "another_list",
+        "kind": 5,
+        "importPath": "Sequences.mutable",
+        "description": "Sequences.mutable",
+        "peekOfCode": "another_list = shopping_list\nprint(id(shopping_list))\nprint(id(another_list))\nshopping_list += [\"cookies\"]#adds cookies to the shopping_list\nprint(shopping_list)\nprint(id(shopping_list))\nprint(another_list)\na = b = c = d = e = f = another_list\nprint(a)\nprint(\"Adding cream\")",
+        "detail": "Sequences.mutable",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "Sequences.mutable",
+        "description": "Sequences.mutable",
+        "peekOfCode": "a = b = c = d = e = f = another_list\nprint(a)\nprint(\"Adding cream\")\nb.append(\"cream\")\nprint(c)\nprint(d)\nprint(\"\\n\"*3)",
+        "detail": "Sequences.mutable",
+        "documentation": {}
+    },
+    {
+        "label": "empty_list",
+        "kind": 5,
+        "importPath": "Sequences.number_lists",
+        "description": "Sequences.number_lists",
+        "peekOfCode": "empty_list = []\neven = [2, 4, 6, 8]\nodd = [1, 3, 5, 7, 9]\nnumbers = [even, odd]\nprint(numbers)\nfor number_list in numbers:\n    print(number_list)\n    for value in number_list:\n        print(value)",
+        "detail": "Sequences.number_lists",
+        "documentation": {}
+    },
+    {
+        "label": "even",
+        "kind": 5,
+        "importPath": "Sequences.number_lists",
+        "description": "Sequences.number_lists",
+        "peekOfCode": "even = [2, 4, 6, 8]\nodd = [1, 3, 5, 7, 9]\nnumbers = [even, odd]\nprint(numbers)\nfor number_list in numbers:\n    print(number_list)\n    for value in number_list:\n        print(value)",
+        "detail": "Sequences.number_lists",
+        "documentation": {}
+    },
+    {
+        "label": "odd",
+        "kind": 5,
+        "importPath": "Sequences.number_lists",
+        "description": "Sequences.number_lists",
+        "peekOfCode": "odd = [1, 3, 5, 7, 9]\nnumbers = [even, odd]\nprint(numbers)\nfor number_list in numbers:\n    print(number_list)\n    for value in number_list:\n        print(value)",
+        "detail": "Sequences.number_lists",
+        "documentation": {}
+    },
+    {
+        "label": "numbers",
+        "kind": 5,
+        "importPath": "Sequences.number_lists",
+        "description": "Sequences.number_lists",
+        "peekOfCode": "numbers = [even, odd]\nprint(numbers)\nfor number_list in numbers:\n    print(number_list)\n    for value in number_list:\n        print(value)\nprint(\"\\n\"*6)",
+        "detail": "Sequences.number_lists",
+        "documentation": {}
+    },
+    {
+        "label": "pangram",
+        "kind": 5,
+        "importPath": "Sequences.sorting",
+        "description": "Sequences.sorting",
+        "peekOfCode": "pangram = \"The quick brown fox jumps over the lazy dog\"\nletters = sorted(pangram)\nprint(letters)\nnumbers = [2.3, 4.5, 8.7, 3.1, 9.2, 1.6]\nsorted_numbers = sorted(numbers)\nprint(sorted_numbers)\nprint(numbers)\nnumbers.sort()\nprint(numbers)\nmissing_letter = sorted(\"The quick brownfox jumped over the lazy dog\" ,",
+        "detail": "Sequences.sorting",
+        "documentation": {}
+    },
+    {
+        "label": "letters",
+        "kind": 5,
+        "importPath": "Sequences.sorting",
+        "description": "Sequences.sorting",
+        "peekOfCode": "letters = sorted(pangram)\nprint(letters)\nnumbers = [2.3, 4.5, 8.7, 3.1, 9.2, 1.6]\nsorted_numbers = sorted(numbers)\nprint(sorted_numbers)\nprint(numbers)\nnumbers.sort()\nprint(numbers)\nmissing_letter = sorted(\"The quick brownfox jumped over the lazy dog\" ,\n                        key=str.casefold)",
+        "detail": "Sequences.sorting",
+        "documentation": {}
+    },
+    {
+        "label": "numbers",
+        "kind": 5,
+        "importPath": "Sequences.sorting",
+        "description": "Sequences.sorting",
+        "peekOfCode": "numbers = [2.3, 4.5, 8.7, 3.1, 9.2, 1.6]\nsorted_numbers = sorted(numbers)\nprint(sorted_numbers)\nprint(numbers)\nnumbers.sort()\nprint(numbers)\nmissing_letter = sorted(\"The quick brownfox jumped over the lazy dog\" ,\n                        key=str.casefold)\nprint(missing_letter)\nnames = [\"Graham\",",
+        "detail": "Sequences.sorting",
+        "documentation": {}
+    },
+    {
+        "label": "sorted_numbers",
+        "kind": 5,
+        "importPath": "Sequences.sorting",
+        "description": "Sequences.sorting",
+        "peekOfCode": "sorted_numbers = sorted(numbers)\nprint(sorted_numbers)\nprint(numbers)\nnumbers.sort()\nprint(numbers)\nmissing_letter = sorted(\"The quick brownfox jumped over the lazy dog\" ,\n                        key=str.casefold)\nprint(missing_letter)\nnames = [\"Graham\",\n         \"John\",",
+        "detail": "Sequences.sorting",
+        "documentation": {}
+    },
+    {
+        "label": "missing_letter",
+        "kind": 5,
+        "importPath": "Sequences.sorting",
+        "description": "Sequences.sorting",
+        "peekOfCode": "missing_letter = sorted(\"The quick brownfox jumped over the lazy dog\" ,\n                        key=str.casefold)\nprint(missing_letter)\nnames = [\"Graham\",\n         \"John\",\n         \"terry\",\n         \"eric\",\n         \"Terry\",\n         \"michael\"]\nnames.sort(key=str.casefold)",
+        "detail": "Sequences.sorting",
+        "documentation": {}
+    },
+    {
+        "label": "names",
+        "kind": 5,
+        "importPath": "Sequences.sorting",
+        "description": "Sequences.sorting",
+        "peekOfCode": "names = [\"Graham\",\n         \"John\",\n         \"terry\",\n         \"eric\",\n         \"Terry\",\n         \"michael\"]\nnames.sort(key=str.casefold)\nprint(names)\nprint(\"\\n\"*6)",
+        "detail": "Sequences.sorting",
+        "documentation": {}
+    },
+    {
+        "label": "sanitise_1",
+        "kind": 2,
+        "importPath": "Sequences.timing_delete",
+        "description": "Sequences.timing_delete",
+        "peekOfCode": "def sanitise_1(data):\n    # process the low values in the list\n    stop = 0\n    for index, value in enumerate(data):\n        if value >= min_valid:\n            stop = index\n            break\n    del data[:stop]\n    start = 0\n    for index in range(len(data) - 1, -1, -1):",
+        "detail": "Sequences.timing_delete",
+        "documentation": {}
+    },
+    {
+        "label": "sanitise_2",
+        "kind": 2,
+        "importPath": "Sequences.timing_delete",
+        "description": "Sequences.timing_delete",
+        "peekOfCode": "def sanitise_2(data):\n    top_index = len(data) - 1\n    for index, value in enumerate(reversed(data)):\n        if value < min_valid or value > max_valid:\n            del data[top_index - index]\ndef sanitise_3(data):\n    for index in range(len(data) - 1, -1, -1):\n        if data[index] < min_valid or data[index] > max_valid:\n            del data[index]\nif __name__ == \"__main__\":",
+        "detail": "Sequences.timing_delete",
+        "documentation": {}
+    },
+    {
+        "label": "sanitise_3",
+        "kind": 2,
+        "importPath": "Sequences.timing_delete",
+        "description": "Sequences.timing_delete",
+        "peekOfCode": "def sanitise_3(data):\n    for index in range(len(data) - 1, -1, -1):\n        if data[index] < min_valid or data[index] > max_valid:\n            del data[index]\nif __name__ == \"__main__\":\n    print(\"Timing\")\n    x = timeit.timeit(\"sanitise_1(data_list1)\",\n                      setup=\"from __main__ import sanitise_1,\"\n                            \"data_list1\",\n                      number=1)",
+        "detail": "Sequences.timing_delete",
+        "documentation": {}
+    },
+    {
+        "label": "max_value",
+        "kind": 5,
+        "importPath": "Sequences.timing_delete",
+        "description": "Sequences.timing_delete",
+        "peekOfCode": "max_value = 1000000  # 100000000\nmin_valid = 10\nmax_valid = 97  # 99999997\ndata_list1 = list(range(max_value))\ndata_list2 = list(range(max_value))\ndata_list3 = list(range(max_value))\ndef sanitise_1(data):\n    # process the low values in the list\n    stop = 0\n    for index, value in enumerate(data):",
+        "detail": "Sequences.timing_delete",
+        "documentation": {}
+    },
+    {
+        "label": "min_valid",
+        "kind": 5,
+        "importPath": "Sequences.timing_delete",
+        "description": "Sequences.timing_delete",
+        "peekOfCode": "min_valid = 10\nmax_valid = 97  # 99999997\ndata_list1 = list(range(max_value))\ndata_list2 = list(range(max_value))\ndata_list3 = list(range(max_value))\ndef sanitise_1(data):\n    # process the low values in the list\n    stop = 0\n    for index, value in enumerate(data):\n        if value >= min_valid:",
+        "detail": "Sequences.timing_delete",
+        "documentation": {}
+    },
+    {
+        "label": "max_valid",
+        "kind": 5,
+        "importPath": "Sequences.timing_delete",
+        "description": "Sequences.timing_delete",
+        "peekOfCode": "max_valid = 97  # 99999997\ndata_list1 = list(range(max_value))\ndata_list2 = list(range(max_value))\ndata_list3 = list(range(max_value))\ndef sanitise_1(data):\n    # process the low values in the list\n    stop = 0\n    for index, value in enumerate(data):\n        if value >= min_valid:\n            stop = index",
+        "detail": "Sequences.timing_delete",
+        "documentation": {}
+    },
+    {
+        "label": "data_list1",
+        "kind": 5,
+        "importPath": "Sequences.timing_delete",
+        "description": "Sequences.timing_delete",
+        "peekOfCode": "data_list1 = list(range(max_value))\ndata_list2 = list(range(max_value))\ndata_list3 = list(range(max_value))\ndef sanitise_1(data):\n    # process the low values in the list\n    stop = 0\n    for index, value in enumerate(data):\n        if value >= min_valid:\n            stop = index\n            break",
+        "detail": "Sequences.timing_delete",
+        "documentation": {}
+    },
+    {
+        "label": "data_list2",
+        "kind": 5,
+        "importPath": "Sequences.timing_delete",
+        "description": "Sequences.timing_delete",
+        "peekOfCode": "data_list2 = list(range(max_value))\ndata_list3 = list(range(max_value))\ndef sanitise_1(data):\n    # process the low values in the list\n    stop = 0\n    for index, value in enumerate(data):\n        if value >= min_valid:\n            stop = index\n            break\n    del data[:stop]",
+        "detail": "Sequences.timing_delete",
+        "documentation": {}
+    },
+    {
+        "label": "data_list3",
+        "kind": 5,
+        "importPath": "Sequences.timing_delete",
+        "description": "Sequences.timing_delete",
+        "peekOfCode": "data_list3 = list(range(max_value))\ndef sanitise_1(data):\n    # process the low values in the list\n    stop = 0\n    for index, value in enumerate(data):\n        if value >= min_valid:\n            stop = index\n            break\n    del data[:stop]\n    start = 0",
+        "detail": "Sequences.timing_delete",
+        "documentation": {}
+    },
+    {
+        "label": "current_choice",
+        "kind": 5,
+        "importPath": "Sequences1.buy_computer",
+        "description": "Sequences1.buy_computer",
+        "peekOfCode": "current_choice = \"-\"\ncomputer_parts = [] # create an empty list\nwhile current_choice != '0':\n    if current_choice in \"12345\":\n        print(\"Adding {}\".format(current_choice))\n        if current_choice == '1':\n            computer_parts.append(\"computer\")\n        elif current_choice == '2':\n            computer_parts.append(\"monitor\")\n        elif current_choice == '3':",
+        "detail": "Sequences1.buy_computer",
+        "documentation": {}
+    },
+    {
+        "label": "computer_parts",
+        "kind": 5,
+        "importPath": "Sequences1.buy_computer",
+        "description": "Sequences1.buy_computer",
+        "peekOfCode": "computer_parts = [] # create an empty list\nwhile current_choice != '0':\n    if current_choice in \"12345\":\n        print(\"Adding {}\".format(current_choice))\n        if current_choice == '1':\n            computer_parts.append(\"computer\")\n        elif current_choice == '2':\n            computer_parts.append(\"monitor\")\n        elif current_choice == '3':\n            computer_parts.append(\"keyboard\")",
+        "detail": "Sequences1.buy_computer",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "Sequences1.immutable",
+        "description": "Sequences1.immutable",
+        "peekOfCode": "result = \"Correct\"\nanother_result = result\nprint(id(result))\nprint(id(another_result))\nresult += \"ish\"\nprint(id(result))\nprint(id(another_result))",
+        "detail": "Sequences1.immutable",
+        "documentation": {}
+    },
+    {
+        "label": "another_result",
+        "kind": 5,
+        "importPath": "Sequences1.immutable",
+        "description": "Sequences1.immutable",
+        "peekOfCode": "another_result = result\nprint(id(result))\nprint(id(another_result))\nresult += \"ish\"\nprint(id(result))\nprint(id(another_result))",
+        "detail": "Sequences1.immutable",
+        "documentation": {}
+    },
+    {
+        "label": "computer_parts",
+        "kind": 5,
+        "importPath": "Sequences1.lists_intro",
+        "description": "Sequences1.lists_intro",
+        "peekOfCode": "computer_parts = [\"computer\",\n                  \"monitor\",\n                  \"keyboard\",\n                  \"mouse\",\n                  \"mouse mat\"\n                  ]\nfor part in computer_parts:\n    print(part)\nprint()\nprint(computer_parts[2])",
+        "detail": "Sequences1.lists_intro",
+        "documentation": {}
+    },
+    {
+        "label": "shopping_list",
+        "kind": 5,
+        "importPath": "Sequences1.mutable",
+        "description": "Sequences1.mutable",
+        "peekOfCode": "shopping_list = [\"milk\",\n                 \"pasta\",\n                 \"eggs\",\n                 \"spam\",\n                 \"bread\",\n                 \"rice\"\n                 ]\nanother_list = shopping_list\nprint(id(shopping_list))\nprint(id(another_list))",
+        "detail": "Sequences1.mutable",
+        "documentation": {}
+    },
+    {
+        "label": "another_list",
+        "kind": 5,
+        "importPath": "Sequences1.mutable",
+        "description": "Sequences1.mutable",
+        "peekOfCode": "another_list = shopping_list\nprint(id(shopping_list))\nprint(id(another_list))\nshopping_list += [\"cookies\"]\nprint(shopping_list)\nprint(id(shopping_list))\nprint(another_list)\na = b = c = d = e = f = another_list\nprint(a)\nprint(\"Adding cream\")",
+        "detail": "Sequences1.mutable",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "Sequences1.mutable",
+        "description": "Sequences1.mutable",
+        "peekOfCode": "a = b = c = d = e = f = another_list\nprint(a)\nprint(\"Adding cream\")\nb.append(\"cream\")\nprint(c)\nprint(d)",
+        "detail": "Sequences1.mutable",
+        "documentation": {}
+    },
+    {
+        "label": "even",
+        "kind": 5,
+        "importPath": "Sequences1.number_lists",
+        "description": "Sequences1.number_lists",
+        "peekOfCode": "even = [2, 4, 6, 8]\nodd = [1, 3, 5, 7, 9]\nprint(min(even))\nprint(max(even))\nprint(min(odd))\nprint(max(odd))\nprint()\nprint(len(even))\nprint(len(odd))\nprint()",
+        "detail": "Sequences1.number_lists",
+        "documentation": {}
+    },
+    {
+        "label": "odd",
+        "kind": 5,
+        "importPath": "Sequences1.number_lists",
+        "description": "Sequences1.number_lists",
+        "peekOfCode": "odd = [1, 3, 5, 7, 9]\nprint(min(even))\nprint(max(even))\nprint(min(odd))\nprint(max(odd))\nprint()\nprint(len(even))\nprint(len(odd))\nprint()\nprint(\"mississippi\".count(\"issi\"))",
+        "detail": "Sequences1.number_lists",
+        "documentation": {}
+    },
+    {
+        "label": "#name",
+        "kind": 5,
+        "importPath": "Udemy.Code_List",
+        "description": "Udemy.Code_List",
+        "peekOfCode": "#name = 'Michael'\n# age = '33'\n# greeting_string = 'Hello {one}, you are {two} years old.'.format(one = name, two = age)\n# print(greeting_string)\n# output = Hello Michael, you are 33 years old.\n## f-strings - a way to format strings in python 3.6 and above\n# name = 'Michael'\n# age = 33\n# greeting_string = f'Hello {name}, you are {age} years old'\n# print(greeting_string)",
+        "detail": "Udemy.Code_List",
+        "documentation": {}
+    },
+    {
+        "label": "greet",
+        "kind": 2,
+        "importPath": "Udemy.Day 8",
+        "description": "Udemy.Day 8",
+        "peekOfCode": "def greet():\n    print(\"Hello\")\n    print(\"How do you do\")\n    print(\"Isn't the weather nice today;\")\n# Arguments & Parameters \ndef greet_with_name(name):\n    print(f\"Hello {name}\")\n    print(f\"How do you do {name}\")\n#Functions with more than 1 input",
+        "detail": "Udemy.Day 8",
+        "documentation": {}
+    },
+    {
+        "label": "greet_with_name",
+        "kind": 2,
+        "importPath": "Udemy.Day 8",
+        "description": "Udemy.Day 8",
+        "peekOfCode": "def greet_with_name(name):\n    print(f\"Hello {name}\")\n    print(f\"How do you do {name}\")\n#Functions with more than 1 input",
+        "detail": "Udemy.Day 8",
+        "documentation": {}
+    },
+    {
+        "label": "stage",
+        "kind": 5,
+        "importPath": "Udemy.Hangman",
+        "description": "Udemy.Hangman",
+        "peekOfCode": "stage = ['''\"\n    _________\n   |         |\n   |         |\n   O         |\n  /|\\\\       |\n   |         |\n  / \\\\       |\n      _______|_______\",\n\"",
+        "detail": "Udemy.Hangman",
+        "documentation": {}
+    },
+    {
+        "label": "python",
+        "kind": 5,
+        "importPath": "Day 29 Replit",
+        "description": "Day 29 Replit",
+        "peekOfCode": "python = \"Python\"\npython.rstrip()\nprint(python)",
+        "detail": "Day 29 Replit",
+        "documentation": {}
+    }
+]

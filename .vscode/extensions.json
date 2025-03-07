@@ -1,0 +1,8 @@
+{
+    "recommendations": [
+        "donjayamanne.python-environment-manager",
+        "kennethsweezy.colorama-snippets",
+        "ritwickdey.liveserver",
+        "streetsidesoftware.code-spell-checker"
+    ]
+}

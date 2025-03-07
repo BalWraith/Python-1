@@ -1,0 +1,74 @@
+[
+    {
+        "label": "os;os.system('cls')",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os;os.system('cls')",
+        "description": "os;os.system('cls')",
+        "detail": "os;os.system('cls')",
+        "documentation": {}
+    },
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "greet_with",
+        "kind": 2,
+        "importPath": "Angela_Yu.function",
+        "description": "Angela_Yu.function",
+        "peekOfCode": "def greet_with(name, location):\n    print(f'Hello {name}')\n    print(f'What is it like in {location}')\n# greet_with(name='Michael', location='New Jersey')#positional arguement\ndef greet(name, location):\n    new_friend=input(f\"Hello my name is {name} what is your name? \\n\")\n    whefrom=input(f\"I'm from {location} where are you from? \\n\")\n    print(f'Well {new_friend} your a long way from home whats it like in {whefrom}\\n')\ngreet(name='Michael', location='New Jersey\\n')",
+        "detail": "Angela_Yu.function",
+        "documentation": {}
+    },
+    {
+        "label": "greet",
+        "kind": 2,
+        "importPath": "Angela_Yu.function",
+        "description": "Angela_Yu.function",
+        "peekOfCode": "def greet(name, location):\n    new_friend=input(f\"Hello my name is {name} what is your name? \\n\")\n    whefrom=input(f\"I'm from {location} where are you from? \\n\")\n    print(f'Well {new_friend} your a long way from home whats it like in {whefrom}\\n')\ngreet(name='Michael', location='New Jersey\\n')",
+        "detail": "Angela_Yu.function",
+        "documentation": {}
+    },
+    {
+        "label": "paint_calc",
+        "kind": 2,
+        "importPath": "Angela_Yu.paint_area_calculator",
+        "description": "Angela_Yu.paint_area_calculator",
+        "peekOfCode": "def paint_calc(height, width, cover):\n  num_cans = (height * width) / cover\n  round_up_cans = math.ceil(num_cans)\n  print(f\"You'll need {round_up_cans} cans of paint.\")\n# Write your code above this line 👆\n# Define a function called paint_calc() so the code below works.   \n# 🚨 Don't change the code below 👇\ntest_h = 3 #Height of wall (m)\ntest_w = 9 #Width of wall (m)\ncoverage = 5",
+        "detail": "Angela_Yu.paint_area_calculator",
+        "documentation": {}
+    },
+    {
+        "label": "test_h",
+        "kind": 5,
+        "importPath": "Angela_Yu.paint_area_calculator",
+        "description": "Angela_Yu.paint_area_calculator",
+        "peekOfCode": "test_h = 3 #Height of wall (m)\ntest_w = 9 #Width of wall (m)\ncoverage = 5\npaint_calc(height=test_h, width=test_w, cover=coverage)",
+        "detail": "Angela_Yu.paint_area_calculator",
+        "documentation": {}
+    },
+    {
+        "label": "test_w",
+        "kind": 5,
+        "importPath": "Angela_Yu.paint_area_calculator",
+        "description": "Angela_Yu.paint_area_calculator",
+        "peekOfCode": "test_w = 9 #Width of wall (m)\ncoverage = 5\npaint_calc(height=test_h, width=test_w, cover=coverage)",
+        "detail": "Angela_Yu.paint_area_calculator",
+        "documentation": {}
+    },
+    {
+        "label": "coverage",
+        "kind": 5,
+        "importPath": "Angela_Yu.paint_area_calculator",
+        "description": "Angela_Yu.paint_area_calculator",
+        "peekOfCode": "coverage = 5\npaint_calc(height=test_h, width=test_w, cover=coverage)",
+        "detail": "Angela_Yu.paint_area_calculator",
+        "documentation": {}
+    }
+]

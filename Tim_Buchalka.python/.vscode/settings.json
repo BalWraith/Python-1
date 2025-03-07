@@ -1,0 +1,8 @@
+{
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.typeCheckingMode": "basic",
+    "editor.fontSize": 18,
+    "files.autoSave": "onFocusChange",
+    "workbench.colorTheme": "Default Dark+",
+    "rust-analyzer.checkOnSave": false
+}
