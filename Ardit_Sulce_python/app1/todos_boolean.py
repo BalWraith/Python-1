@@ -2,7 +2,6 @@ import os; os.system('cls')
 while True:
     user_action = input("Type add, show, edit, complete, or exit: ")
     user_action = user_action.strip()
-
     if 'add' in user_action:
         todo = user_action[4:]
 
@@ -13,6 +12,7 @@ while True:
 
         with open("Ardit_Sulce_python/files/todos.txt", 'w') as file:
                 file.writelines(todos)
+
     elif 'show' in user_action:
         
         with open("Ardit_Sulce_python/files/todos.txt", "r") as file:
