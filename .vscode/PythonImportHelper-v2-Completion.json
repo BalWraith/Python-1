@@ -513,6 +513,38 @@
         "documentation": {}
     },
     {
+        "label": "choice",
+        "importPath": "random",
+        "description": "random",
+        "isExtraImport": true,
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "choice",
+        "importPath": "random",
+        "description": "random",
+        "isExtraImport": true,
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "choice",
+        "importPath": "random",
+        "description": "random",
+        "isExtraImport": true,
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "choice",
+        "importPath": "random",
+        "description": "random",
+        "isExtraImport": true,
+        "detail": "random",
+        "documentation": {}
+    },
+    {
         "label": "printable",
         "importPath": "string",
         "description": "string",
@@ -675,6 +707,182 @@
         "importPath": "timeit",
         "description": "timeit",
         "detail": "timeit",
+        "documentation": {}
+    },
+    {
+        "label": "Qt",
+        "importPath": "PyQt5.QtCore",
+        "description": "PyQt5.QtCore",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtCore",
+        "documentation": {}
+    },
+    {
+        "label": "Qt",
+        "importPath": "PyQt5.QtCore",
+        "description": "PyQt5.QtCore",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtCore",
+        "documentation": {}
+    },
+    {
+        "label": "Qt",
+        "importPath": "PyQt5.QtCore",
+        "description": "PyQt5.QtCore",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtCore",
+        "documentation": {}
+    },
+    {
+        "label": "QApplication",
+        "importPath": "PyQt5.QtWidgets",
+        "description": "PyQt5.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtWidgets",
+        "documentation": {}
+    },
+    {
+        "label": "QWidget",
+        "importPath": "PyQt5.QtWidgets",
+        "description": "PyQt5.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtWidgets",
+        "documentation": {}
+    },
+    {
+        "label": "QLabel",
+        "importPath": "PyQt5.QtWidgets",
+        "description": "PyQt5.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtWidgets",
+        "documentation": {}
+    },
+    {
+        "label": "QPushButton",
+        "importPath": "PyQt5.QtWidgets",
+        "description": "PyQt5.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtWidgets",
+        "documentation": {}
+    },
+    {
+        "label": "QVBoxLayout",
+        "importPath": "PyQt5.QtWidgets",
+        "description": "PyQt5.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtWidgets",
+        "documentation": {}
+    },
+    {
+        "label": "QHBoxLayout",
+        "importPath": "PyQt5.QtWidgets",
+        "description": "PyQt5.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtWidgets",
+        "documentation": {}
+    },
+    {
+        "label": "QGridLayout",
+        "importPath": "PyQt5.QtWidgets",
+        "description": "PyQt5.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtWidgets",
+        "documentation": {}
+    },
+    {
+        "label": "QApplication",
+        "importPath": "PyQt5.QtWidgets",
+        "description": "PyQt5.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtWidgets",
+        "documentation": {}
+    },
+    {
+        "label": "QWidget",
+        "importPath": "PyQt5.QtWidgets",
+        "description": "PyQt5.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtWidgets",
+        "documentation": {}
+    },
+    {
+        "label": "QLabel",
+        "importPath": "PyQt5.QtWidgets",
+        "description": "PyQt5.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtWidgets",
+        "documentation": {}
+    },
+    {
+        "label": "QPushButton",
+        "importPath": "PyQt5.QtWidgets",
+        "description": "PyQt5.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtWidgets",
+        "documentation": {}
+    },
+    {
+        "label": "QVBoxLayout",
+        "importPath": "PyQt5.QtWidgets",
+        "description": "PyQt5.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtWidgets",
+        "documentation": {}
+    },
+    {
+        "label": "QHBoxLayout",
+        "importPath": "PyQt5.QtWidgets",
+        "description": "PyQt5.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtWidgets",
+        "documentation": {}
+    },
+    {
+        "label": "QApplication",
+        "importPath": "PyQt5.QtWidgets",
+        "description": "PyQt5.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtWidgets",
+        "documentation": {}
+    },
+    {
+        "label": "QWidget",
+        "importPath": "PyQt5.QtWidgets",
+        "description": "PyQt5.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtWidgets",
+        "documentation": {}
+    },
+    {
+        "label": "QLabel",
+        "importPath": "PyQt5.QtWidgets",
+        "description": "PyQt5.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtWidgets",
+        "documentation": {}
+    },
+    {
+        "label": "QPushButton",
+        "importPath": "PyQt5.QtWidgets",
+        "description": "PyQt5.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtWidgets",
+        "documentation": {}
+    },
+    {
+        "label": "QVBoxLayout",
+        "importPath": "PyQt5.QtWidgets",
+        "description": "PyQt5.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtWidgets",
+        "documentation": {}
+    },
+    {
+        "label": "QHBoxLayout",
+        "importPath": "PyQt5.QtWidgets",
+        "description": "PyQt5.QtWidgets",
+        "isExtraImport": true,
+        "detail": "PyQt5.QtWidgets",
         "documentation": {}
     },
     {
@@ -4131,6 +4339,213 @@
         "description": "Tim_Buchalka.python.Older.Sequences.unpacking",
         "peekOfCode": "data_list = [12, 13, 14]\n# data_list.append(15)\np, q, r = data_list\nprint(p)\nprint(q)\nprint(r)\nprint(\"\\n\"*3)",
         "detail": "Tim_Buchalka.python.Older.Sequences.unpacking",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "youtube.Code With Josh.code.calculator",
+        "description": "youtube.Code With Josh.code.calculator",
+        "peekOfCode": "app = QApplication([]) ## This takes an empty list \nmain_window = QWidget() ## \nmain_window.setWindowTitle(\"🐍Random Word Maker\") ## title of the webpage\nmain_window.resize(700,500) ## window size\n## Show/Run our App\nmain_window.show() ## shows the window\napp.exec_() ## starts the app",
+        "detail": "youtube.Code With Josh.code.calculator",
+        "documentation": {}
+    },
+    {
+        "label": "main_window",
+        "kind": 5,
+        "importPath": "youtube.Code With Josh.code.calculator",
+        "description": "youtube.Code With Josh.code.calculator",
+        "peekOfCode": "main_window = QWidget() ## \nmain_window.setWindowTitle(\"🐍Random Word Maker\") ## title of the webpage\nmain_window.resize(700,500) ## window size\n## Show/Run our App\nmain_window.show() ## shows the window\napp.exec_() ## starts the app",
+        "detail": "youtube.Code With Josh.code.calculator",
+        "documentation": {}
+    },
+    {
+        "label": "random_word1",
+        "kind": 2,
+        "importPath": "youtube.Code With Josh.code.main",
+        "description": "youtube.Code With Josh.code.main",
+        "peekOfCode": "def random_word1():\n    word = choice(my_words)\n    text1.setText(word)\ndef random_word2():\n    word = choice(my_words)\n    text2.setText(word)\ndef random_word3():\n    word = choice(my_words)\n    text3.setText(word)\n## EVENTS",
+        "detail": "youtube.Code With Josh.code.main",
+        "documentation": {}
+    },
+    {
+        "label": "random_word2",
+        "kind": 2,
+        "importPath": "youtube.Code With Josh.code.main",
+        "description": "youtube.Code With Josh.code.main",
+        "peekOfCode": "def random_word2():\n    word = choice(my_words)\n    text2.setText(word)\ndef random_word3():\n    word = choice(my_words)\n    text3.setText(word)\n## EVENTS\n## gives the buttons functionality when clicked \nbutton1.clicked.connect(random_word1)\nbutton2.clicked.connect(random_word2)",
+        "detail": "youtube.Code With Josh.code.main",
+        "documentation": {}
+    },
+    {
+        "label": "random_word3",
+        "kind": 2,
+        "importPath": "youtube.Code With Josh.code.main",
+        "description": "youtube.Code With Josh.code.main",
+        "peekOfCode": "def random_word3():\n    word = choice(my_words)\n    text3.setText(word)\n## EVENTS\n## gives the buttons functionality when clicked \nbutton1.clicked.connect(random_word1)\nbutton2.clicked.connect(random_word2)\nbutton3.clicked.connect(random_word3)\n## Show/Run our App\nmain_window.show() ## shows the window",
+        "detail": "youtube.Code With Josh.code.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "youtube.Code With Josh.code.main",
+        "description": "youtube.Code With Josh.code.main",
+        "peekOfCode": "app = QApplication([]) ## This takes an empty list \nmain_window = QWidget() ## \nmain_window.setWindowTitle(\"🐍Random Word Maker\") ## title of the webpage\nmain_window.resize(700,500) ## window size\n## Create all App Objects\ntitle = QLabel(\"Random Keywords\")\ntext1 = QLabel(\"?\")\ntext2 = QLabel(\"?\")\ntext3 = QLabel(\"?\")\ntext4 = QLabel() ## row 4",
+        "detail": "youtube.Code With Josh.code.main",
+        "documentation": {}
+    },
+    {
+        "label": "main_window",
+        "kind": 5,
+        "importPath": "youtube.Code With Josh.code.main",
+        "description": "youtube.Code With Josh.code.main",
+        "peekOfCode": "main_window = QWidget() ## \nmain_window.setWindowTitle(\"🐍Random Word Maker\") ## title of the webpage\nmain_window.resize(700,500) ## window size\n## Create all App Objects\ntitle = QLabel(\"Random Keywords\")\ntext1 = QLabel(\"?\")\ntext2 = QLabel(\"?\")\ntext3 = QLabel(\"?\")\ntext4 = QLabel() ## row 4\nbutton1 = QPushButton(\"Click me\")",
+        "detail": "youtube.Code With Josh.code.main",
+        "documentation": {}
+    },
+    {
+        "label": "title",
+        "kind": 5,
+        "importPath": "youtube.Code With Josh.code.main",
+        "description": "youtube.Code With Josh.code.main",
+        "peekOfCode": "title = QLabel(\"Random Keywords\")\ntext1 = QLabel(\"?\")\ntext2 = QLabel(\"?\")\ntext3 = QLabel(\"?\")\ntext4 = QLabel() ## row 4\nbutton1 = QPushButton(\"Click me\")\nbutton2 = QPushButton(\"Click me\")\nbutton3 = QPushButton(\"Click me\")\n## RANDOM WORD CHOICE \nmy_words = ['anime','manga','coding','c++','python','javascript','css','html']",
+        "detail": "youtube.Code With Josh.code.main",
+        "documentation": {}
+    },
+    {
+        "label": "text1",
+        "kind": 5,
+        "importPath": "youtube.Code With Josh.code.main",
+        "description": "youtube.Code With Josh.code.main",
+        "peekOfCode": "text1 = QLabel(\"?\")\ntext2 = QLabel(\"?\")\ntext3 = QLabel(\"?\")\ntext4 = QLabel() ## row 4\nbutton1 = QPushButton(\"Click me\")\nbutton2 = QPushButton(\"Click me\")\nbutton3 = QPushButton(\"Click me\")\n## RANDOM WORD CHOICE \nmy_words = ['anime','manga','coding','c++','python','javascript','css','html']\n##Design our app",
+        "detail": "youtube.Code With Josh.code.main",
+        "documentation": {}
+    },
+    {
+        "label": "text2",
+        "kind": 5,
+        "importPath": "youtube.Code With Josh.code.main",
+        "description": "youtube.Code With Josh.code.main",
+        "peekOfCode": "text2 = QLabel(\"?\")\ntext3 = QLabel(\"?\")\ntext4 = QLabel() ## row 4\nbutton1 = QPushButton(\"Click me\")\nbutton2 = QPushButton(\"Click me\")\nbutton3 = QPushButton(\"Click me\")\n## RANDOM WORD CHOICE \nmy_words = ['anime','manga','coding','c++','python','javascript','css','html']\n##Design our app\n##Assigns QVBoxLayout() to the variable master_layout",
+        "detail": "youtube.Code With Josh.code.main",
+        "documentation": {}
+    },
+    {
+        "label": "text3",
+        "kind": 5,
+        "importPath": "youtube.Code With Josh.code.main",
+        "description": "youtube.Code With Josh.code.main",
+        "peekOfCode": "text3 = QLabel(\"?\")\ntext4 = QLabel() ## row 4\nbutton1 = QPushButton(\"Click me\")\nbutton2 = QPushButton(\"Click me\")\nbutton3 = QPushButton(\"Click me\")\n## RANDOM WORD CHOICE \nmy_words = ['anime','manga','coding','c++','python','javascript','css','html']\n##Design our app\n##Assigns QVBoxLayout() to the variable master_layout\nmaster_layout = QVBoxLayout()",
+        "detail": "youtube.Code With Josh.code.main",
+        "documentation": {}
+    },
+    {
+        "label": "text4",
+        "kind": 5,
+        "importPath": "youtube.Code With Josh.code.main",
+        "description": "youtube.Code With Josh.code.main",
+        "peekOfCode": "text4 = QLabel() ## row 4\nbutton1 = QPushButton(\"Click me\")\nbutton2 = QPushButton(\"Click me\")\nbutton3 = QPushButton(\"Click me\")\n## RANDOM WORD CHOICE \nmy_words = ['anime','manga','coding','c++','python','javascript','css','html']\n##Design our app\n##Assigns QVBoxLayout() to the variable master_layout\nmaster_layout = QVBoxLayout()\nrow1 = QHBoxLayout()",
+        "detail": "youtube.Code With Josh.code.main",
+        "documentation": {}
+    },
+    {
+        "label": "button1",
+        "kind": 5,
+        "importPath": "youtube.Code With Josh.code.main",
+        "description": "youtube.Code With Josh.code.main",
+        "peekOfCode": "button1 = QPushButton(\"Click me\")\nbutton2 = QPushButton(\"Click me\")\nbutton3 = QPushButton(\"Click me\")\n## RANDOM WORD CHOICE \nmy_words = ['anime','manga','coding','c++','python','javascript','css','html']\n##Design our app\n##Assigns QVBoxLayout() to the variable master_layout\nmaster_layout = QVBoxLayout()\nrow1 = QHBoxLayout()\nrow2 = QHBoxLayout()",
+        "detail": "youtube.Code With Josh.code.main",
+        "documentation": {}
+    },
+    {
+        "label": "button2",
+        "kind": 5,
+        "importPath": "youtube.Code With Josh.code.main",
+        "description": "youtube.Code With Josh.code.main",
+        "peekOfCode": "button2 = QPushButton(\"Click me\")\nbutton3 = QPushButton(\"Click me\")\n## RANDOM WORD CHOICE \nmy_words = ['anime','manga','coding','c++','python','javascript','css','html']\n##Design our app\n##Assigns QVBoxLayout() to the variable master_layout\nmaster_layout = QVBoxLayout()\nrow1 = QHBoxLayout()\nrow2 = QHBoxLayout()\nrow3 = QHBoxLayout()",
+        "detail": "youtube.Code With Josh.code.main",
+        "documentation": {}
+    },
+    {
+        "label": "button3",
+        "kind": 5,
+        "importPath": "youtube.Code With Josh.code.main",
+        "description": "youtube.Code With Josh.code.main",
+        "peekOfCode": "button3 = QPushButton(\"Click me\")\n## RANDOM WORD CHOICE \nmy_words = ['anime','manga','coding','c++','python','javascript','css','html']\n##Design our app\n##Assigns QVBoxLayout() to the variable master_layout\nmaster_layout = QVBoxLayout()\nrow1 = QHBoxLayout()\nrow2 = QHBoxLayout()\nrow3 = QHBoxLayout()\nrow4 = QHBoxLayout()",
+        "detail": "youtube.Code With Josh.code.main",
+        "documentation": {}
+    },
+    {
+        "label": "my_words",
+        "kind": 5,
+        "importPath": "youtube.Code With Josh.code.main",
+        "description": "youtube.Code With Josh.code.main",
+        "peekOfCode": "my_words = ['anime','manga','coding','c++','python','javascript','css','html']\n##Design our app\n##Assigns QVBoxLayout() to the variable master_layout\nmaster_layout = QVBoxLayout()\nrow1 = QHBoxLayout()\nrow2 = QHBoxLayout()\nrow3 = QHBoxLayout()\nrow4 = QHBoxLayout()\n## Adds the title to the center\nrow1.addWidget(title, alignment=Qt.AlignCenter)",
+        "detail": "youtube.Code With Josh.code.main",
+        "documentation": {}
+    },
+    {
+        "label": "master_layout",
+        "kind": 5,
+        "importPath": "youtube.Code With Josh.code.main",
+        "description": "youtube.Code With Josh.code.main",
+        "peekOfCode": "master_layout = QVBoxLayout()\nrow1 = QHBoxLayout()\nrow2 = QHBoxLayout()\nrow3 = QHBoxLayout()\nrow4 = QHBoxLayout()\n## Adds the title to the center\nrow1.addWidget(title, alignment=Qt.AlignCenter)\n## adds text 1-3 to row 2 and aligns it \nrow2.addWidget(text1, alignment=Qt.AlignCenter)\nrow2.addWidget(text2, alignment=Qt.AlignCenter)",
+        "detail": "youtube.Code With Josh.code.main",
+        "documentation": {}
+    },
+    {
+        "label": "row1",
+        "kind": 5,
+        "importPath": "youtube.Code With Josh.code.main",
+        "description": "youtube.Code With Josh.code.main",
+        "peekOfCode": "row1 = QHBoxLayout()\nrow2 = QHBoxLayout()\nrow3 = QHBoxLayout()\nrow4 = QHBoxLayout()\n## Adds the title to the center\nrow1.addWidget(title, alignment=Qt.AlignCenter)\n## adds text 1-3 to row 2 and aligns it \nrow2.addWidget(text1, alignment=Qt.AlignCenter)\nrow2.addWidget(text2, alignment=Qt.AlignCenter)\nrow2.addWidget(text3, alignment=Qt.AlignCenter)",
+        "detail": "youtube.Code With Josh.code.main",
+        "documentation": {}
+    },
+    {
+        "label": "row2",
+        "kind": 5,
+        "importPath": "youtube.Code With Josh.code.main",
+        "description": "youtube.Code With Josh.code.main",
+        "peekOfCode": "row2 = QHBoxLayout()\nrow3 = QHBoxLayout()\nrow4 = QHBoxLayout()\n## Adds the title to the center\nrow1.addWidget(title, alignment=Qt.AlignCenter)\n## adds text 1-3 to row 2 and aligns it \nrow2.addWidget(text1, alignment=Qt.AlignCenter)\nrow2.addWidget(text2, alignment=Qt.AlignCenter)\nrow2.addWidget(text3, alignment=Qt.AlignCenter)\n## adds the buttons to row 3",
+        "detail": "youtube.Code With Josh.code.main",
+        "documentation": {}
+    },
+    {
+        "label": "row3",
+        "kind": 5,
+        "importPath": "youtube.Code With Josh.code.main",
+        "description": "youtube.Code With Josh.code.main",
+        "peekOfCode": "row3 = QHBoxLayout()\nrow4 = QHBoxLayout()\n## Adds the title to the center\nrow1.addWidget(title, alignment=Qt.AlignCenter)\n## adds text 1-3 to row 2 and aligns it \nrow2.addWidget(text1, alignment=Qt.AlignCenter)\nrow2.addWidget(text2, alignment=Qt.AlignCenter)\nrow2.addWidget(text3, alignment=Qt.AlignCenter)\n## adds the buttons to row 3\nrow3.addWidget(button1)",
+        "detail": "youtube.Code With Josh.code.main",
+        "documentation": {}
+    },
+    {
+        "label": "row4",
+        "kind": 5,
+        "importPath": "youtube.Code With Josh.code.main",
+        "description": "youtube.Code With Josh.code.main",
+        "peekOfCode": "row4 = QHBoxLayout()\n## Adds the title to the center\nrow1.addWidget(title, alignment=Qt.AlignCenter)\n## adds text 1-3 to row 2 and aligns it \nrow2.addWidget(text1, alignment=Qt.AlignCenter)\nrow2.addWidget(text2, alignment=Qt.AlignCenter)\nrow2.addWidget(text3, alignment=Qt.AlignCenter)\n## adds the buttons to row 3\nrow3.addWidget(button1)\nrow3.addWidget(button2)",
+        "detail": "youtube.Code With Josh.code.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "youtube.Code With Josh.code.starterWidget",
+        "description": "youtube.Code With Josh.code.starterWidget",
+        "peekOfCode": "app = QApplication([]) ## This takes an empty list \nmain_window = QWidget() ## \nmain_window.setWindowTitle(\"🐍Random Word Maker\") ## title of the webpage\nmain_window.resize(300,200) ## window size\n##Create all Object/Widgets below here\nmain_window.show() ## shows the window\napp.exec_() ## starts the app",
+        "detail": "youtube.Code With Josh.code.starterWidget",
+        "documentation": {}
+    },
+    {
+        "label": "main_window",
+        "kind": 5,
+        "importPath": "youtube.Code With Josh.code.starterWidget",
+        "description": "youtube.Code With Josh.code.starterWidget",
+        "peekOfCode": "main_window = QWidget() ## \nmain_window.setWindowTitle(\"🐍Random Word Maker\") ## title of the webpage\nmain_window.resize(300,200) ## window size\n##Create all Object/Widgets below here\nmain_window.show() ## shows the window\napp.exec_() ## starts the app",
+        "detail": "youtube.Code With Josh.code.starterWidget",
         "documentation": {}
     }
 ]
